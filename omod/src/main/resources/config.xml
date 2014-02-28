@@ -15,6 +15,19 @@
 	<require_version>${openMRSVersion}</require_version>
 	<!-- / Module Properties -->
 
+	<!-- Required Modules -->
+	<require_modules>
+		<require_module version="0.7.8">
+			org.openmrs.module.reporting
+		</require_module>
+		<require_module version="0.2.7">
+			org.openmrs.module.serialization.xstream
+		</require_module>
+		<require_module version="1.0.0">
+			org.openmrs.calculation
+		</require_module>
+	</require_modules>
+	<!-- / Required Modules -->
 	
 	<!-- Module Activator -->
 	<activator>${project.parent.groupId}.${project.parent.artifactId}.DhisIntegrationActivator</activator>
