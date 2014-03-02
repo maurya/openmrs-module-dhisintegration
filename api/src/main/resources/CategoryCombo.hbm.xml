@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.openmrs.module.integration.CategoryCombo" table="dim_categorycombo">
+		<id name="id" type="int" unsaved-value="0">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+		<discriminator column="id" insert="false" />
+
+		<property name="uuid" type="java.lang.String" column="uuid"
+			length="38" unique="true"  not-null="true"/>
+			
+			<property name="name" type="java.lang.String" column="name"
+			not-null="true" length="230" />
+			
+		<property name="code" type="java.lang.String" column="code"
+			not-null="false" length="50" />		
+			
+			<property name="uid" type="java.lang.String" column="uid"
+			not-null="true" length="11" />	
+			
+		<set name="categoryOptions" table="dim_catcombo_combooption" >
+            <key column="catcombo_id" not-null="true" />
+             <many-to-many entity-name="org.openmrs.module.integration.CategoryOption">
+                <column name="catoption_id" not-null="true" />
+            </many-to-many>
+        </set>	
+				
+
+	<set name="optionSets" inverse="false" table="dim_catcombo_optionset" >
+            <key column="catcombo_id" not-null="true" />
+            <many-to-many entity-name="org.openmrs.module.integration.OptionSet">
+                <column name="optionset_id" not-null="true" />
+            </many-to-many>
+        </set>	
+        	
+				
+		<many-to-one name="integrationServer" class="org.openmrs.module.integration.IntegrationServer"
+			not-null="true">
+			<column name="server_Id" />
+		</many-to-one>		
+	</class>
+</hibernate-mapping>

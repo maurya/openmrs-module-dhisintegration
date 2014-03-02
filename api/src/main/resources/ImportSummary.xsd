@@ -1,0 +1,55 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" targetNamespace="http://dhis2.org/schema/dxf/2.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0">
+
+<!-- Rename the value element to avoid conflict with datatypes.xsd -->  
+	<xs:annotation>
+   		<xs:appinfo>
+            <jaxb:bindings node="//xs:element[@name='conflict']">
+            	<jaxb:bindings node=".//xs:attribute[@name='value']">
+                	<jaxb:property name="valueAttribute"/>
+            	</jaxb:bindings>
+            </jaxb:bindings>
+   		</xs:appinfo>
+	</xs:annotation>
+
+
+	<xs:element name="importSummary">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="status" type="xs:string" maxOccurs="1" />
+				<xs:element name="description" type="xs:string" maxOccurs="1" />
+				<xs:element name="dataValueCount" maxOccurs="1">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:integer">
+								<xs:attribute type="xs:integer" name="imported" use="optional" />
+								<xs:attribute type="xs:integer" name="updated" use="optional" />
+								<xs:attribute type="xs:integer" name="ignored" use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="conflicts" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="conflict" minOccurs="0" maxOccurs="unbounded" >
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="object" use="optional" />
+											<xs:attribute type="xs:string" name="value" use="optional" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="datasetComplete" type="xs:string" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

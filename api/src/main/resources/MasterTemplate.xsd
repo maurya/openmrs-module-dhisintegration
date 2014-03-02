@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb" jxb:version="2.0" 
+	 elementFormDefault="qualified">
+<!-- 
+targetNamespace="http://www.dhis.org/schemas/DXF/2.0/" 
+	
+	xmlns:tns="http://www.dhis.org/schemas/DXF/2.0/"
+ -->
+	<xsd:element name="reportTemplates">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="dataElements">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="dataElement" maxOccurs="unbounded" minOccurs="0">
+								<xsd:complexType>
+									<xsd:attribute type="xsd:string" name="uid" use="required" />
+									<xsd:attribute type="xsd:string" name="code" use="required" />
+									<xsd:attribute type="xsd:string" name="name" use="required" />
+									<xsd:attribute type="xsd:string" name="type" use="required" />
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="disaggregations">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="disaggregation" maxOccurs="unbounded" minOccurs="0">
+								<xsd:complexType>
+									<xsd:attribute type="xsd:string" name="uid" use="required" />
+									<xsd:attribute type="xsd:string" name="code" use="required" />
+									<xsd:attribute type="xsd:string" name="name" use="required" />
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="reportTemplate" maxOccurs="unbounded" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element type="xsd:string" name="name" />
+							<xsd:element type="xsd:string" name="uid" />
+							<xsd:element type="xsd:string" name="code" />
+							<xsd:element type="xsd:string" name="periodType" />
+							<xsd:element name="dataValueTemplates">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="dataValueTemplate" maxOccurs="unbounded" minOccurs="0">
+											<xsd:complexType>
+												<xsd:attribute type="xsd:string" name="dataElement" use="required" />
+												<xsd:attribute type="xsd:string" name="disaggregation" use="required" />
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

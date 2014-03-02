@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportTemplates>
+	<dataElements>
+		<dataElement uid="RhPktSnSIN1" code="WHO1"
+			name="Patients at WHO Stage 1" type="int" />
+		<dataElement uid="SXbfZSb3zTx" code="WHO2"
+			name="Patients at WHO Stage 2" type="int" />
+		<dataElement uid="U5SEIlGpFFQ" code="WHO3"
+			name="Patients at WHO Stage 3" type="int" />
+		<dataElement uid="Y0Xy4dFftxN" code="WHO4"
+			name="Patients at WHO Stage 4" type="int" />
+		<dataElement uid="qcmwD4d5Pom" code="PWHO"
+			name="Patients with WHO Stage" type="int" />
+		<dataElement uid="xWAixcffdxp" code="PCD4"
+			name="Patients with CD4 by CD4" type="int" />
+		<dataElement uid="Q8q72Jw46b7" code="NPS"
+			name="New Patients by Status" type="int" />
+		<dataElement uid="cU67WuqKPVp" code="NDOC" name="Staff: Doctors"
+			type="int" />
+		<dataElement uid="BehtmhOLYCc" code="NNURSE" name="Staff: Nurses"
+			type="int" />
+		<dataElement uid="rjVsrAtzPEz" code="NOTHER" name="Staff: Other"
+			type="int" />
+	</dataElements>
+	<disaggregations>
+		<disaggregation uid="NVjS4zO94IB" code="NVjS4zO94IB"
+			name="(default)" />
+		<disaggregation uid="FrOHQv8QfwC" code="FrOHQv8QfwC"
+			name="(Female, 00-5 yrs)" />
+		<disaggregation uid="uUBXwnpbgQ3" code="uUBXwnpbgQ3"
+			name="(Male, 00-5 yrs)" />
+		<disaggregation uid="cqXvyLuLPq0" code="cqXvyLuLPq0"
+			name="(14-21 yrs, Male)" />
+		<disaggregation uid="bMFFOq0NQWF" code="bMFFOq0NQWF"
+			name="(05-14 yrs, Female)" />
+		<disaggregation uid="JODUsV4TtRR" code="JODUsV4TtRR"
+			name="(50+ years, Male)" />
+		<disaggregation uid="I7CVWyevHxv" code="I7CVWyevHxv"
+			name="(50+ years, Female)" />
+		<disaggregation uid="gHo4dAE0CF5" code="gHo4dAE0CF5"
+			name="(21-49 yrs, Male)" />
+		<disaggregation uid="rJC5cVV42iB" code="rJC5cVV42iB"
+			name="(05-14 yrs, Male)" />
+		<disaggregation uid="YBhAqVrLeYk" code="YBhAqVrLeYk"
+			name="(14-21 yrs, Female)" />
+		<disaggregation uid="xIZS0pHSAQ0" code="xIZS0pHSAQ0"
+			name="(21-49 yrs, Female)" />
+		<disaggregation uid="DKBEEBSYUbC" code="DKBEEBSYUbC"
+			name="(CD4&lt;250)" />
+		<disaggregation uid="YRSJIoS6RSE" code="YRSJIoS6RSE"
+			name="(CD4&gt;250)" />
+		<disaggregation uid="XhiRWFiq8Ju" code="XhiRWFiq8Ju"
+			name="(CD4&gt;250, No, Male)" />
+		<disaggregation uid="xNNhZWzBlzI" code="xNNhZWzBlzI"
+			name="(Yes, CD4&gt;250, Male)" />
+		<disaggregation uid="DZvlQFQ3lQh" code="DZvlQFQ3lQh"
+			name="(Yes, CD4&gt;250, Female)" />
+		<disaggregation uid="saqjQWFGlgL" code="saqjQWFGlgL"
+			name="(Yes, Female, CD4&lt;250)" />
+		<disaggregation uid="w45vaVJw3Oq" code="w45vaVJw3Oq"
+			name="(Yes, Male, CD4&lt;250)" />
+		<disaggregation uid="whcltWjitFj" code="whcltWjitFj"
+			name="(No, Female, CD4&lt;250)" />
+		<disaggregation uid="GX27xmylMFr" code="GX27xmylMFr"
+			name="(No, Male, CD4&lt;250)" />
+		<disaggregation uid="DsyqIOPYeeV" code="DsyqIOPYeeV"
+			name="(CD4&gt;250, No, Female)" />
+	</disaggregations>
+	<reportTemplate>
+		<name>HIV Data Elements</name>
+		<uid>K3O0udbrq83</uid>
+		<code />
+		<periodType>Monthly</periodType>
+		<dataValueTemplates>
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="FrOHQv8QfwC" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="uUBXwnpbgQ3" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="cqXvyLuLPq0" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="bMFFOq0NQWF" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="JODUsV4TtRR" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="I7CVWyevHxv" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="gHo4dAE0CF5" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="rJC5cVV42iB" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="YBhAqVrLeYk" />
+			<dataValueTemplate dataElement="WHO4"
+				disaggregation="xIZS0pHSAQ0" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="FrOHQv8QfwC" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="uUBXwnpbgQ3" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="cqXvyLuLPq0" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="bMFFOq0NQWF" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="JODUsV4TtRR" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="I7CVWyevHxv" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="gHo4dAE0CF5" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="rJC5cVV42iB" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="YBhAqVrLeYk" />
+			<dataValueTemplate dataElement="WHO3"
+				disaggregation="xIZS0pHSAQ0" />
+			<dataValueTemplate dataElement="PCD4"
+				disaggregation="DKBEEBSYUbC" />
+			<dataValueTemplate dataElement="PCD4"
+				disaggregation="YRSJIoS6RSE" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="XhiRWFiq8Ju" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="xNNhZWzBlzI" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="DZvlQFQ3lQh" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="saqjQWFGlgL" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="w45vaVJw3Oq" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="whcltWjitFj" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="GX27xmylMFr" />
+			<dataValueTemplate dataElement="NPS"
+				disaggregation="DsyqIOPYeeV" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="FrOHQv8QfwC" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="uUBXwnpbgQ3" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="cqXvyLuLPq0" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="bMFFOq0NQWF" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="JODUsV4TtRR" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="I7CVWyevHxv" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="gHo4dAE0CF5" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="rJC5cVV42iB" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="YBhAqVrLeYk" />
+			<dataValueTemplate dataElement="WHO2"
+				disaggregation="xIZS0pHSAQ0" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="FrOHQv8QfwC" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="uUBXwnpbgQ3" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="cqXvyLuLPq0" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="bMFFOq0NQWF" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="JODUsV4TtRR" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="I7CVWyevHxv" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="gHo4dAE0CF5" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="rJC5cVV42iB" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="YBhAqVrLeYk" />
+			<dataValueTemplate dataElement="WHO1"
+				disaggregation="xIZS0pHSAQ0" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="FrOHQv8QfwC" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="uUBXwnpbgQ3" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="cqXvyLuLPq0" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="bMFFOq0NQWF" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="JODUsV4TtRR" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="I7CVWyevHxv" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="gHo4dAE0CF5" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="rJC5cVV42iB" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="YBhAqVrLeYk" />
+			<dataValueTemplate dataElement="PWHO"
+				disaggregation="xIZS0pHSAQ0" />
+		</dataValueTemplates>
+	</reportTemplate>
+	<reportTemplate>
+		<name>Human Resources</name>
+		<uid>wpAkrFfk03I</uid>
+		<code>HRDS</code>
+		<periodType>Daily</periodType>
+		<dataValueTemplates>
+			<dataValueTemplate dataElement="NOTHER"
+				disaggregation="NVjS4zO94IB" />
+			<dataValueTemplate dataElement="NNURSE"
+				disaggregation="NVjS4zO94IB" />
+			<dataValueTemplate dataElement="NDOC"
+				disaggregation="NVjS4zO94IB" />
+		</dataValueTemplates>
+	</reportTemplate>
+</reportTemplates>

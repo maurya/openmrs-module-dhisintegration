@@ -1,0 +1,6 @@
+<dataValueSet xmlns="http://dhis2.org/schema/dxf/2.0" dataSet="dataSetID"
+completeDate="date" period="period" orgUnit="orgUnitID">
+<dataValue dataElement="dataElementID" value="1"/>
+<dataValue dataElement="dataElementID" value="2"/>
+<dataValue dataElement="dataElementID" value="3"/>
+</dataValueSet>

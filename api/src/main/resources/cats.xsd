@@ -1,0 +1,57 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://dhis2.org/schema/dxf/2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="metaData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="categoryOptionCombos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="categoryOptionCombo" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="categoryCombo">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="name" use="optional"/>
+                            <xs:attribute type="xs:string" name="created" use="optional"/>
+                            <xs:attribute type="xs:string" name="lastUpdated" use="optional"/>
+                            <xs:attribute type="xs:anyURI" name="href" use="optional"/>
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="categoryOptions">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="categoryOption" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="created" use="optional"/>
+                                  <xs:attribute type="xs:string" name="lastUpdated" use="optional"/>
+                                  <xs:attribute type="xs:anyURI" name="href" use="optional"/>
+                                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                  <xs:attribute type="xs:string" name="created" use="optional"/>
+                  <xs:attribute type="xs:string" name="lastUpdated" use="optional"/>
+                  <xs:attribute type="xs:anyURI" name="href" use="optional"/>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.openmrs.module.integration.IntegrationServer" table="dim_integrationserver">
+		<id name="id" type="int" unsaved-value="0"> 
+			<column name="id" />
+			<generator class="native" />
+		</id>
+
+		<property name="uuid" type="java.lang.String" column="uuid"
+			length="38" unique="true" />
+			
+		<property name="serverName" type="java.lang.String" column="name"
+			not-null="true" length="230" />
+			
+		<property name="serverDescription" type="java.lang.String" column="description"
+			not-null="false" length="1000" />			
+					
+		<property name="userName" type="java.lang.String" column="username"
+			not-null="false" length="255" />
+			
+		<property name="password" type="java.lang.String" column="password"
+			not-null="false" length="255" />
+
+		<property name="url" type="java.lang.String" column="url"
+			not-null="false" length="255" />
+			
+			<property name="masterTemplate" type="java.lang.String" column="mastertemplate"
+		 length="255" />
+			
+		<property name="emailorurl" type="java.lang.String" column="emailorurl"
+			not-null="false" length="255" />
+			
+			<property name="transportType" type="java.lang.String" column="transport_type"
+			not-null="false" length="45" />
+		 
+		 <property name="lastUpdated" type="java.util.Date" column="last_updated"
+			length="19" />
+				
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.openmrs.module.integration.ReportTemplate" table="dim_reporttemplate">
+		<id name="id" type="int" unsaved-value="0">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+		<discriminator column="id" insert="false" />
+
+		<property name="uuid" type="java.lang.String" column="uuid"
+			length="38" unique="true" />	
+
+		<property name="name" type="java.lang.String" column="name"
+			not-null="true" length="230" />
+			
+			<property name="uid" type="java.lang.String" column="uid"
+			length="11" />
+			
+			<property name="code" type="java.lang.String" column="code"
+			not-null="false" length="50" />
+			
+			<property name="frequency" type="java.lang.String" column="frequency"
+			not-null="true" length="230" />
+			
+			<property name="mappedReportUuid" type="java.lang.String" column="report_definition_uuid"
+			length="38"/>
+			
+			
+ 			<property name="lastUpdated" type="java.util.Date" column="last_updated"
+			length="19" />
+				
+		 <set name="dataValueTemplates" inverse="true">
+            	<key column="reporttemplate_id" not-null="true" />
+        		<one-to-many class="org.openmrs.module.integration.DataValueTemplate" />
+    	</set>
+    	
+    	<set name="dataElements" inverse="true" table="dim_reporttemplate_dataelement" >
+            <key column="reporttemplate_id" not-null="true" />
+            <many-to-many entity-name="org.openmrs.module.integration.DataElement">
+                <column name="dataelement_id" not-null="true" />
+            </many-to-many>
+        </set>	
+				
+		<many-to-one name="integrationServer" class="org.openmrs.module.integration.IntegrationServer"
+			not-null="true">
+			<column name="server_Id" />
+		</many-to-one>
+		
+	</class>
+</hibernate-mapping>

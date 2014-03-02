@@ -1,0 +1,2204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metaData xmlns="http://dhis2.org/schema/dxf/2.0">
+	<categoryOptionCombos>
+		<categoryOptionCombo name="(0-11m)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/S34ULMcHMca"
+			id="S34ULMcHMca">
+			<categoryCombo name="Morbidity Cases" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/t3aNCvHsoSn" id="t3aNCvHsoSn" />
+			<categoryOptions>
+				<categoryOption name="0-11m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/FbLZS3ueWbQ"
+					id="FbLZS3ueWbQ" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(0-28d, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/PP09MbybbwK"
+			id="PP09MbybbwK">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="0-28d" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T19:44:14.046+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/BMi0oxm2mYH"
+					id="BMi0oxm2mYH" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(0-28d, In Community)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/maAzhDGE2uu"
+			id="maAzhDGE2uu">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="0-28d" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T19:44:14.046+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/BMi0oxm2mYH"
+					id="BMi0oxm2mYH" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(0-4y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/o2gxEt6Ek2C"
+			id="o2gxEt6Ek2C">
+			<categoryCombo name="Morbidity Referrals" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/ck7mRNwGDjP" id="ck7mRNwGDjP" />
+			<categoryOptions>
+				<categoryOption name="0-4y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/K4gwuiVvW3z"
+					id="K4gwuiVvW3z" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(1-11m, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Y01ebridINE"
+			id="Y01ebridINE">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="1-11m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T19:44:18.145+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/GlYVHQ7hg7r"
+					id="GlYVHQ7hg7r" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12 to 59 mths, Fixed)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/psbwp3CQEhs"
+			id="psbwp3CQEhs">
+			<categoryCombo name="Location and age group" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/dzjKKQq0cSO" id="dzjKKQq0cSO" />
+			<categoryOptions>
+				<categoryOption name="12 to 59 mths" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/GEqzEKCHoGA"
+					id="GEqzEKCHoGA" />
+				<categoryOption name="Fixed" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qkPbeWaFsnU"
+					id="qkPbeWaFsnU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12 to 59 mths, Outreach)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/hEFKSsPV5et"
+			id="hEFKSsPV5et">
+			<categoryCombo name="Location and age group" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/dzjKKQq0cSO" id="dzjKKQq0cSO" />
+			<categoryOptions>
+				<categoryOption name="12 to 59 mths" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/GEqzEKCHoGA"
+					id="GEqzEKCHoGA" />
+				<categoryOption name="Outreach" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wbrDrL2aYEc"
+					id="wbrDrL2aYEc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12-18m, Female)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/mG4ON0wm5ub"
+			id="mG4ON0wm5ub">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="12-18m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/dPSWsKeAZNw"
+					id="dPSWsKeAZNw" />
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12-18m, Male)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/EaDmbKV3ZWF"
+			id="EaDmbKV3ZWF">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="12-18m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/dPSWsKeAZNw"
+					id="dPSWsKeAZNw" />
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12-59m)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/wHBMVthqIX4"
+			id="wHBMVthqIX4">
+			<categoryCombo name="Morbidity Cases" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/t3aNCvHsoSn" id="t3aNCvHsoSn" />
+			<categoryOptions>
+				<categoryOption name="12-59m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rEq3Hkd3XXH"
+					id="rEq3Hkd3XXH" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(12-59m., At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/IIRN5ytHpVj"
+			id="IIRN5ytHpVj">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="12-59m." created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/PFmNbh5nCuw"
+					id="PFmNbh5nCuw" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(15-24y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/u5fU9rr67xo"
+			id="u5fU9rr67xo">
+			<categoryCombo name="HIV age" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Wfan7UwK8CQ" id="Wfan7UwK8CQ" />
+			<categoryOptions>
+				<categoryOption name="15-24y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/UOqJW6HPvvL"
+					id="UOqJW6HPvvL" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(15y+)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/jOkIbJVhECg"
+			id="jOkIbJVhECg">
+			<categoryCombo name="Morbidity Cases" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/t3aNCvHsoSn" id="t3aNCvHsoSn" />
+			<categoryOptions>
+				<categoryOption name="15y+" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/ZZxYuoTCcDd"
+					id="ZZxYuoTCcDd" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(15y.+, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/g9NzGnHlhX6"
+			id="g9NzGnHlhX6">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="15y.+" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/V64GgPeNpxL"
+					id="V64GgPeNpxL" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(15y.+, In Community)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/s4zjoZuwki1"
+			id="s4zjoZuwki1">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="15y.+" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/V64GgPeNpxL"
+					id="V64GgPeNpxL" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(25-49y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/LbkJRbDblhe"
+			id="LbkJRbDblhe">
+			<categoryCombo name="HIV age" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Wfan7UwK8CQ" id="Wfan7UwK8CQ" />
+			<categoryOptions>
+				<categoryOption name="25-49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/WAl0OCcIYxr"
+					id="WAl0OCcIYxr" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(5 years and above)"
+			created="2013-04-09T12:45:14.796+0000" lastUpdated="2013-04-09T12:45:14.796+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/JkCyl4FMPVz"
+			id="JkCyl4FMPVz">
+			<categoryCombo name="Under 5/5 and above" created="2013-04-09T12:45:14.733+0000"
+				lastUpdated="2013-04-09T12:45:14.800+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/UnNIOt1uB0J" id="UnNIOt1uB0J" />
+			<categoryOptions>
+				<categoryOption name="5 years and above" created="2013-04-09T12:44:27.211+0000"
+					lastUpdated="2013-04-09T12:44:27.211+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/PYddIHxZRKK"
+					id="PYddIHxZRKK" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(5-14y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/SdOUI2yT46H"
+			id="SdOUI2yT46H">
+			<categoryCombo name="Morbidity Cases" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/t3aNCvHsoSn" id="t3aNCvHsoSn" />
+			<categoryOptions>
+				<categoryOption name="5-14y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/dUm5jaCTPBb"
+					id="dUm5jaCTPBb" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(5-14y., At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/elRjlHXK2KJ"
+			id="elRjlHXK2KJ">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="5-14y." created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/yHE7nEXYpEm"
+					id="yHE7nEXYpEm" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(5y+)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/ba1FkzknqS8"
+			id="ba1FkzknqS8">
+			<categoryCombo name="Morbidity Referrals" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/ck7mRNwGDjP" id="ck7mRNwGDjP" />
+			<categoryOptions>
+				<categoryOption name="5y+" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/oaFqxkefkPs"
+					id="oaFqxkefkPs" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt; 12 mths, Fixed)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Prlt0C1RF0s"
+			id="Prlt0C1RF0s">
+			<categoryCombo name="Location and age group" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/dzjKKQq0cSO" id="dzjKKQq0cSO" />
+			<categoryOptions>
+				<categoryOption name="&lt; 12 mths" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/btOyqprQ9e8"
+					id="btOyqprQ9e8" />
+				<categoryOption name="Fixed" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qkPbeWaFsnU"
+					id="qkPbeWaFsnU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt; 12 mths, Outreach)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/V6L425pT3A0"
+			id="V6L425pT3A0">
+			<categoryCombo name="Location and age group" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/dzjKKQq0cSO" id="dzjKKQq0cSO" />
+			<categoryOptions>
+				<categoryOption name="&lt; 12 mths" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/btOyqprQ9e8"
+					id="btOyqprQ9e8" />
+				<categoryOption name="Outreach" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wbrDrL2aYEc"
+					id="wbrDrL2aYEc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt;12m, Female)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/hl5zeAOOZJP"
+			id="hl5zeAOOZJP">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="&lt;12m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/nuHLu6GaiWI"
+					id="nuHLu6GaiWI" />
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt;12m, Male)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/zqHPlIraRuB"
+			id="zqHPlIraRuB">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="&lt;12m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/nuHLu6GaiWI"
+					id="nuHLu6GaiWI" />
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt;15y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/YBhrfw1dP2J"
+			id="YBhrfw1dP2J">
+			<categoryCombo name="HIV age" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Wfan7UwK8CQ" id="Wfan7UwK8CQ" />
+			<categoryOptions>
+				<categoryOption name="&lt;15y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/zs2Ra6sikup"
+					id="zs2Ra6sikup" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt;15y, Female)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/qNCMOhkoQju"
+			id="qNCMOhkoQju">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="&lt;15y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/zs2Ra6sikup"
+					id="zs2Ra6sikup" />
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(&lt;15y, Male)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/TkDhg29x18A"
+			id="TkDhg29x18A">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="&lt;15y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/zs2Ra6sikup"
+					id="zs2Ra6sikup" />
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(>49y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/z858fbdqWwF"
+			id="z858fbdqWwF">
+			<categoryCombo name="HIV age" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Wfan7UwK8CQ" id="Wfan7UwK8CQ" />
+			<categoryOptions>
+				<categoryOption name=">49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IG8vRsn0HNl"
+					id="IG8vRsn0HNl" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(>49y, Female)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/rCMUTmcreqP"
+			id="rCMUTmcreqP">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name=">49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IG8vRsn0HNl"
+					id="IG8vRsn0HNl" />
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(>49y, Male)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/GuJESuyOCMW"
+			id="GuJESuyOCMW">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name=">49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IG8vRsn0HNl"
+					id="IG8vRsn0HNl" />
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Abortion, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/v99OAIrqSKj"
+			id="v99OAIrqSKj">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Abortion" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/FfQkdfpvaxx"
+					id="FfQkdfpvaxx" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Abortion, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/eeUNYiMYZlq"
+			id="eeUNYiMYZlq">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Abortion" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/FfQkdfpvaxx"
+					id="FfQkdfpvaxx" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Abortion, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/v188IxY1WTh"
+			id="v188IxY1WTh">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Abortion" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/FfQkdfpvaxx"
+					id="FfQkdfpvaxx" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Ante-partum hemmorhage, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/DS13oURyQ5s"
+			id="DS13oURyQ5s">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Ante-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/weOIzRXoUN4"
+					id="weOIzRXoUN4" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Ante-partum hemmorhage, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/qZ9QcyhO0Vv"
+			id="qZ9QcyhO0Vv">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Ante-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/weOIzRXoUN4"
+					id="weOIzRXoUN4" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Ante-partum hemmorhage, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/NFSAqnC92ct"
+			id="NFSAqnC92ct">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Ante-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/weOIzRXoUN4"
+					id="weOIzRXoUN4" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(At PHU, Anaemia)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/GTBzVBQY6eA"
+			id="GTBzVBQY6eA">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+				<categoryOption name="Anaemia" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/agNsiNGcGlf"
+					id="agNsiNGcGlf" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(At PHU, Retained placenta)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/bgKO5mjR3Un"
+			id="bgKO5mjR3Un">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+				<categoryOption name="Retained placenta" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qZIEVbjYDLI"
+					id="qZIEVbjYDLI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(At PHU, Trained TBA)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Gmbgme7z9BF"
+			id="Gmbgme7z9BF">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+				<categoryOption name="Trained TBA" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/uZUnebiT5DI"
+					id="uZUnebiT5DI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(At PHU, Untrained TBA)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/s3jlIgFCbUb"
+			id="s3jlIgFCbUb">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+				<categoryOption name="Untrained TBA" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/HTHvCohKoXt"
+					id="HTHvCohKoXt" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(CHO, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/PvFFIeF2J9x"
+			id="PvFFIeF2J9x">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="CHO" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/OjIOxG7vgna"
+					id="OjIOxG7vgna" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Damages)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/pn1upwnbxfn"
+			id="pn1upwnbxfn">
+			<categoryCombo name="Stock discarded" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/WA3HunbaGt0" id="WA3HunbaGt0" />
+			<categoryOptions>
+				<categoryOption name="Damages" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/mInFlpnx6TQ"
+					id="mInFlpnx6TQ" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(default)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/bRowv6yZOF2"
+			id="bRowv6yZOF2">
+			<categoryCombo name="default" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/p0KPaWEg3cf" id="p0KPaWEg3cf" />
+			<categoryOptions>
+				<categoryOption name="default" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/as6ygGvUGNg"
+					id="as6ygGvUGNg" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Expired)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/fsFN9T4ck3E"
+			id="fsFN9T4ck3E">
+			<categoryCombo name="Stock discarded" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/WA3HunbaGt0" id="WA3HunbaGt0" />
+			<categoryOptions>
+				<categoryOption name="Expired" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/YHb43JqCAmI"
+					id="YHb43JqCAmI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Female, 15-24y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/LbeIlyHEhKr"
+			id="LbeIlyHEhKr">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+				<categoryOption name="15-24y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/UOqJW6HPvvL"
+					id="UOqJW6HPvvL" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Female, 25-49y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/qa0VqgYlgtN"
+			id="qa0VqgYlgtN">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+				<categoryOption name="25-49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/WAl0OCcIYxr"
+					id="WAl0OCcIYxr" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Female, >18m)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/w7fvkHv1CfZ"
+			id="w7fvkHv1CfZ">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="Female" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/apsOixVZlf1"
+					id="apsOixVZlf1" />
+				<categoryOption name=">18m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/dHl52Uo56Ct"
+					id="dHl52Uo56Ct" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Fixed)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/pq2XI5kz2BY"
+			id="pq2XI5kz2BY">
+			<categoryCombo name="Fixed/Outreach" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/KYYSTxeVw28" id="KYYSTxeVw28" />
+			<categoryOptions>
+				<categoryOption name="Fixed" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qkPbeWaFsnU"
+					id="qkPbeWaFsnU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Hypertension, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/wSIfDRFpQhe"
+			id="wSIfDRFpQhe">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Hypertension" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IqVA7ElOrEw"
+					id="IqVA7ElOrEw" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Hypertension, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/jaS34UZLyBe"
+			id="jaS34UZLyBe">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Hypertension" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IqVA7ElOrEw"
+					id="IqVA7ElOrEw" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, 1-11m)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Z5vY4BCMCrB"
+			id="Z5vY4BCMCrB">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="1-11m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T19:44:18.145+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/GlYVHQ7hg7r"
+					id="GlYVHQ7hg7r" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, 12-59m.)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/cFhTgEkOkVM"
+			id="cFhTgEkOkVM">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="12-59m." created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/PFmNbh5nCuw"
+					id="PFmNbh5nCuw" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, 5-14y.)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/PGZM52Yf5G9"
+			id="PGZM52Yf5G9">
+			<categoryCombo name="Location and Mortality age group"
+				created="2011-12-24T11:24:25.203+0000" lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/MOWykxm5agr" id="MOWykxm5agr" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="5-14y." created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/yHE7nEXYpEm"
+					id="yHE7nEXYpEm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Abortion)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/RYnkI3dHV2r"
+			id="RYnkI3dHV2r">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Abortion" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/FfQkdfpvaxx"
+					id="FfQkdfpvaxx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Anaemia)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/lKQatl72hbs"
+			id="lKQatl72hbs">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Anaemia" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/agNsiNGcGlf"
+					id="agNsiNGcGlf" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Ante-partum hemmorhage)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/OkTqmleJPNt"
+			id="OkTqmleJPNt">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Ante-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/weOIzRXoUN4"
+					id="weOIzRXoUN4" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, CHO)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/w3BcsdjOcfk"
+			id="w3BcsdjOcfk">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="CHO" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/OjIOxG7vgna"
+					id="OjIOxG7vgna" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Hypertension)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Qvaa6XQsYJG"
+			id="Qvaa6XQsYJG">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Hypertension" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IqVA7ElOrEw"
+					id="IqVA7ElOrEw" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(In Community, Malaria in 2nd or 3rd trimester (treat with ACT))"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/D9HOVHItnAW"
+			id="D9HOVHItnAW">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Malaria in 2nd or 3rd trimester (treat with ACT)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/LVVjrz1mFQt"
+					id="LVVjrz1mFQt" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Malpresentation)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/fXLSLTafPAa"
+			id="fXLSLTafPAa">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Malpresentation" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/vGrKQ90SRZt"
+					id="vGrKQ90SRZt" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, MCH Aides)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/b19Ye0TWs1D"
+			id="b19Ye0TWs1D">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="MCH Aides" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/TNYQzTHdoxL"
+					id="TNYQzTHdoxL" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Midwives)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/AKQ15Z2uqit"
+			id="AKQ15Z2uqit">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Midwives" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/QgULqw9YDu2"
+					id="QgULqw9YDu2" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Obstructed labour)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/rpnukMmWBmK"
+			id="rpnukMmWBmK">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Obstructed labour" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/B3xM7LYh0jH"
+					id="B3xM7LYh0jH" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Other early complication)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/ylnUkus0uWL"
+			id="ylnUkus0uWL">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Other early complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2013-03-19T19:44:39.993+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Mz5LnqoobUz"
+					id="Mz5LnqoobUz" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Post-partum hemmorhage)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/UwZkJFuoed4"
+			id="UwZkJFuoed4">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Post-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/b6sKvU8phrc"
+					id="b6sKvU8phrc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Retained placenta)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/fCEasSwk4iA"
+			id="fCEasSwk4iA">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Retained placenta" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qZIEVbjYDLI"
+					id="qZIEVbjYDLI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, SECHN)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/MaXD86iob3M"
+			id="MaXD86iob3M">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="SECHN" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/TXGfLxZlInA"
+					id="TXGfLxZlInA" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, STI)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/R2e7o7AGaZl"
+			id="R2e7o7AGaZl">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="STI" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/E5g8xQeBvHa"
+					id="E5g8xQeBvHa" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Trained TBA)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/CYHGl18lR0W"
+			id="CYHGl18lR0W">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Trained TBA" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/uZUnebiT5DI"
+					id="uZUnebiT5DI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(In Community, Untrained TBA)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/HVFCn1yjoGx"
+			id="HVFCn1yjoGx">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+				<categoryOption name="Untrained TBA" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/HTHvCohKoXt"
+					id="HTHvCohKoXt" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 1st trimester (treat with oral quinine), At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/G9XRXHMgId1"
+			id="G9XRXHMgId1">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 1st trimester (treat with oral quinine)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/o4K5VAp14z9"
+					id="o4K5VAp14z9" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 1st trimester (treat with oral quinine), In Community)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/OrDRjJL9bTS"
+			id="OrDRjJL9bTS">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 1st trimester (treat with oral quinine)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/o4K5VAp14z9"
+					id="o4K5VAp14z9" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 1st trimester (treat with oral quinine), Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/bckzBoAurHI"
+			id="bckzBoAurHI">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 1st trimester (treat with oral quinine)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/o4K5VAp14z9"
+					id="o4K5VAp14z9" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 1st trimester (treat with oral quinine), Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/GQsM79Oa8e1"
+			id="GQsM79Oa8e1">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 1st trimester (treat with oral quinine)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/o4K5VAp14z9"
+					id="o4K5VAp14z9" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 2nd or 3rd trimester (treat with ACT), At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/G83s4UeQzyT"
+			id="G83s4UeQzyT">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 2nd or 3rd trimester (treat with ACT)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/LVVjrz1mFQt"
+					id="LVVjrz1mFQt" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 2nd or 3rd trimester (treat with ACT), Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/TDb5JyDQqho"
+			id="TDb5JyDQqho">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 2nd or 3rd trimester (treat with ACT)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/LVVjrz1mFQt"
+					id="LVVjrz1mFQt" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Malaria in 2nd or 3rd trimester (treat with ACT), Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/HLdVEzeYl0t"
+			id="HLdVEzeYl0t">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Malaria in 2nd or 3rd trimester (treat with ACT)"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/LVVjrz1mFQt"
+					id="LVVjrz1mFQt" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Male, 15-24y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/zPpvbvpmkxN"
+			id="zPpvbvpmkxN">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+				<categoryOption name="15-24y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/UOqJW6HPvvL"
+					id="UOqJW6HPvvL" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Male, 25-49y)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/uX9yDetTdOp"
+			id="uX9yDetTdOp">
+			<categoryCombo name="HIV age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/jCNGsC2NawV" id="jCNGsC2NawV" />
+			<categoryOptions>
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+				<categoryOption name="25-49y" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/WAl0OCcIYxr"
+					id="WAl0OCcIYxr" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Male, >18m)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/pMETBl4mXms"
+			id="pMETBl4mXms">
+			<categoryCombo name="HIV Paed age+gender" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/v1K6CE6bmtw" id="v1K6CE6bmtw" />
+			<categoryOptions>
+				<categoryOption name="Male" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/jRbMi0aBjYn"
+					id="jRbMi0aBjYn" />
+				<categoryOption name=">18m" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/dHl52Uo56Ct"
+					id="dHl52Uo56Ct" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Malpresentation, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/toku1yGjhnO"
+			id="toku1yGjhnO">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Malpresentation" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/vGrKQ90SRZt"
+					id="vGrKQ90SRZt" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Malpresentation, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/E4jVwXdL1FE"
+			id="E4jVwXdL1FE">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Malpresentation" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/vGrKQ90SRZt"
+					id="vGrKQ90SRZt" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Managed at PHU, Anaemia)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/y1jbXYIuubN"
+			id="y1jbXYIuubN">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+				<categoryOption name="Anaemia" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/agNsiNGcGlf"
+					id="agNsiNGcGlf" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Managed at PHU, Retained placenta)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/mgfOSrzUthX"
+			id="mgfOSrzUthX">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+				<categoryOption name="Retained placenta" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qZIEVbjYDLI"
+					id="qZIEVbjYDLI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(MCH Aides, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/L4P9VSgHkF6"
+			id="L4P9VSgHkF6">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="MCH Aides" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/TNYQzTHdoxL"
+					id="TNYQzTHdoxL" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Midwives, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Tzg8I9KyEwd"
+			id="Tzg8I9KyEwd">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="Midwives" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/QgULqw9YDu2"
+					id="QgULqw9YDu2" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Non-pregnant, Fixed)"
+			created="2013-03-19T19:26:02.588+0000" lastUpdated="2013-03-19T19:26:02.588+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/r8xySVHExGT"
+			id="r8xySVHExGT">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Non-pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/ZggZw2XNDaw"
+					id="ZggZw2XNDaw" />
+				<categoryOption name="Fixed" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qkPbeWaFsnU"
+					id="qkPbeWaFsnU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Non-pregnant, Outreach)"
+			created="2013-03-19T19:26:02.596+0000" lastUpdated="2013-03-19T19:26:02.596+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/U1PHVSShuWj"
+			id="U1PHVSShuWj">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Non-pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/ZggZw2XNDaw"
+					id="ZggZw2XNDaw" />
+				<categoryOption name="Outreach" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wbrDrL2aYEc"
+					id="wbrDrL2aYEc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Non-pregnant, School)"
+			created="2013-03-19T19:26:02.594+0000" lastUpdated="2013-03-19T19:26:02.594+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/ONiwc2Eg0R1"
+			id="ONiwc2Eg0R1">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Non-pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/ZggZw2XNDaw"
+					id="ZggZw2XNDaw" />
+				<categoryOption name="School" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T18:51:40.402+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/C1CvTD0GlTU"
+					id="C1CvTD0GlTU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Not on salary)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/R23h9QZRbRt"
+			id="R23h9QZRbRt">
+			<categoryCombo name="Staffing" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/aN8uN5b15YG" id="aN8uN5b15YG" />
+			<categoryOptions>
+				<categoryOption name="Not on salary" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/sNr1y5Qq1YQ"
+					id="sNr1y5Qq1YQ" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Obstructed labour, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/dKLECGfFphs"
+			id="dKLECGfFphs">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Obstructed labour" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/B3xM7LYh0jH"
+					id="B3xM7LYh0jH" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Obstructed labour, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/HLg2utbMetZ"
+			id="HLg2utbMetZ">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Obstructed labour" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/B3xM7LYh0jH"
+					id="B3xM7LYh0jH" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Obstructed labour, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/nquTEyWU7ff"
+			id="nquTEyWU7ff">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Obstructed labour" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/B3xM7LYh0jH"
+					id="B3xM7LYh0jH" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(On salary)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/DOC7emLzyRi"
+			id="DOC7emLzyRi">
+			<categoryCombo name="Staffing" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/aN8uN5b15YG" id="aN8uN5b15YG" />
+			<categoryOptions>
+				<categoryOption name="On salary" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Z8aX3AkrDMS"
+					id="Z8aX3AkrDMS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other early complication, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/YYcR8MyHtzY"
+			id="YYcR8MyHtzY">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Other early complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2013-03-19T19:44:39.993+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Mz5LnqoobUz"
+					id="Mz5LnqoobUz" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other early complication, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/dMAOu9i2tU4"
+			id="dMAOu9i2tU4">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Other early complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2013-03-19T19:44:39.993+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Mz5LnqoobUz"
+					id="Mz5LnqoobUz" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other early complication, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/uh8MUdOumIk"
+			id="uh8MUdOumIk">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Other early complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2013-03-19T19:44:39.993+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Mz5LnqoobUz"
+					id="Mz5LnqoobUz" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other late complication, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/bL8RBTCC5X1"
+			id="bL8RBTCC5X1">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Other late complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/sJw2lMoJu1f"
+					id="sJw2lMoJu1f" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other late complication, In Community)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/TW3dSLS3Yez"
+			id="TW3dSLS3Yez">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Other late complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/sJw2lMoJu1f"
+					id="sJw2lMoJu1f" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other late complication, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/JvO2GpldrnQ"
+			id="JvO2GpldrnQ">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Other late complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/sJw2lMoJu1f"
+					id="sJw2lMoJu1f" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Other late complication, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/N8wisgL0KOn"
+			id="N8wisgL0KOn">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Other late complication"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/sJw2lMoJu1f"
+					id="sJw2lMoJu1f" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Outreach)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/PT59n8BQbqM"
+			id="PT59n8BQbqM">
+			<categoryCombo name="Fixed/Outreach" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/KYYSTxeVw28" id="KYYSTxeVw28" />
+			<categoryOptions>
+				<categoryOption name="Outreach" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wbrDrL2aYEc"
+					id="wbrDrL2aYEc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum hemmorhage, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Zw24HlQNuKE"
+			id="Zw24HlQNuKE">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Post-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/b6sKvU8phrc"
+					id="b6sKvU8phrc" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum hemmorhage, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/iBOkirjs8TH"
+			id="iBOkirjs8TH">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Post-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/b6sKvU8phrc"
+					id="b6sKvU8phrc" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum hemmorhage, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/qtWl5uR98jt"
+			id="qtWl5uR98jt">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Post-partum hemmorhage"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/b6sKvU8phrc"
+					id="b6sKvU8phrc" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum sepsis, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/AN492NhCwWd"
+			id="AN492NhCwWd">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Post-partum sepsis" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Et4YOXvUod1"
+					id="Et4YOXvUod1" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum sepsis, In Community)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/TsI6OWSobTy"
+			id="TsI6OWSobTy">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Post-partum sepsis" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Et4YOXvUod1"
+					id="Et4YOXvUod1" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum sepsis, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Lbil2sS54Ik"
+			id="Lbil2sS54Ik">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Post-partum sepsis" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Et4YOXvUod1"
+					id="Et4YOXvUod1" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Post-partum sepsis, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/FWuj3rd87jj"
+			id="FWuj3rd87jj">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Post-partum sepsis" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Et4YOXvUod1"
+					id="Et4YOXvUod1" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Pre-eclampsia/Eclampsia/Hypertension, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Gk7wi8I1cKr"
+			id="Gk7wi8I1cKr">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Pre-eclampsia/Eclampsia/Hypertension"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rVvVG0xb1U9"
+					id="rVvVG0xb1U9" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Pre-eclampsia/Eclampsia/Hypertension, In Community)" created="2011-12-24T11:24:25.319+0000"
+			lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/B0gmWQQnjRB"
+			id="B0gmWQQnjRB">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="Pre-eclampsia/Eclampsia/Hypertension"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rVvVG0xb1U9"
+					id="rVvVG0xb1U9" />
+				<categoryOption name="In Community" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wHFX72Y0KXx"
+					id="wHFX72Y0KXx" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Pre-eclampsia/Eclampsia/Hypertension, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/NboNN44Iwul"
+			id="NboNN44Iwul">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Pre-eclampsia/Eclampsia/Hypertension"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rVvVG0xb1U9"
+					id="rVvVG0xb1U9" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo
+			name="(Pre-eclampsia/Eclampsia/Hypertension, Referred)" created="2011-12-24T11:24:25.319+0000"
+			lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/h47XMXroiw4"
+			id="h47XMXroiw4">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Pre-eclampsia/Eclampsia/Hypertension"
+					created="2011-12-24T11:24:24.149+0000" lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rVvVG0xb1U9"
+					id="rVvVG0xb1U9" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Pregnant, Fixed)"
+			created="2013-03-19T19:26:02.585+0000" lastUpdated="2013-03-19T19:26:02.585+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/dcguXUTwenI"
+			id="dcguXUTwenI">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/JR4RSJFjNYl"
+					id="JR4RSJFjNYl" />
+				<categoryOption name="Fixed" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qkPbeWaFsnU"
+					id="qkPbeWaFsnU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Pregnant, Outreach)"
+			created="2013-03-19T19:26:02.592+0000" lastUpdated="2013-03-19T19:26:02.592+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/cBQmyRrEKo3"
+			id="cBQmyRrEKo3">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/JR4RSJFjNYl"
+					id="JR4RSJFjNYl" />
+				<categoryOption name="Outreach" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/wbrDrL2aYEc"
+					id="wbrDrL2aYEc" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Pregnant, School)"
+			created="2013-03-19T19:26:02.590+0000" lastUpdated="2013-03-19T19:26:02.590+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/xFRryVwuFWY"
+			id="xFRryVwuFWY">
+			<categoryCombo name="TT" created="2013-03-19T19:26:02.523+0000"
+				lastUpdated="2013-03-19T19:38:44.908+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/arTwh07V6qz" id="arTwh07V6qz" />
+			<categoryOptions>
+				<categoryOption name="Pregnant" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/JR4RSJFjNYl"
+					id="JR4RSJFjNYl" />
+				<categoryOption name="School" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2013-03-19T18:51:40.402+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/C1CvTD0GlTU"
+					id="C1CvTD0GlTU" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Referred, Anaemia)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/Pbzdb8uzHBW"
+			id="Pbzdb8uzHBW">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+				<categoryOption name="Anaemia" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/agNsiNGcGlf"
+					id="agNsiNGcGlf" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Referred, Hypertension)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/iO3MLhE4PHA"
+			id="iO3MLhE4PHA">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+				<categoryOption name="Hypertension" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/IqVA7ElOrEw"
+					id="IqVA7ElOrEw" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Referred, Malpresentation)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/L7aTYZnP5Pe"
+			id="L7aTYZnP5Pe">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+				<categoryOption name="Malpresentation" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/vGrKQ90SRZt"
+					id="vGrKQ90SRZt" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Referred, Retained placenta)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/E4CrE0wh4eN"
+			id="E4CrE0wh4eN">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+				<categoryOption name="Retained placenta" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qZIEVbjYDLI"
+					id="qZIEVbjYDLI" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(SECHN, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/YEmiuCcgNQI"
+			id="YEmiuCcgNQI">
+			<categoryCombo name="Births" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/m2jTvAj5kkm" id="m2jTvAj5kkm" />
+			<categoryOptions>
+				<categoryOption name="SECHN" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/TXGfLxZlInA"
+					id="TXGfLxZlInA" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(STI, At PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/CweWgHpMTu7"
+			id="CweWgHpMTu7">
+			<categoryCombo name="Maternal deaths" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/sgoeVsAbF4r" id="sgoeVsAbF4r" />
+			<categoryOptions>
+				<categoryOption name="STI" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/E5g8xQeBvHa"
+					id="E5g8xQeBvHa" />
+				<categoryOption name="At PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/Fp4gVHbRvEV"
+					id="Fp4gVHbRvEV" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(STI, Managed at PHU)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/x1Ti1RoTKFr"
+			id="x1Ti1RoTKFr">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="STI" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/E5g8xQeBvHa"
+					id="E5g8xQeBvHa" />
+				<categoryOption name="Managed at PHU" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/e3oqm527jBS"
+					id="e3oqm527jBS" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(STI, Referred)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/p53iCsRVPSU"
+			id="p53iCsRVPSU">
+			<categoryCombo name="Pregnancy complications" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/Hz71pt7Eb3e" id="Hz71pt7Eb3e" />
+			<categoryOptions>
+				<categoryOption name="STI" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/E5g8xQeBvHa"
+					id="E5g8xQeBvHa" />
+				<categoryOption name="Referred" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/rSdQZYDmHJm"
+					id="rSdQZYDmHJm" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(Under 5 years)"
+			created="2013-04-09T12:45:14.798+0000" lastUpdated="2013-04-09T12:45:14.798+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/pcKjEElpvqd"
+			id="pcKjEElpvqd">
+			<categoryCombo name="Under 5/5 and above" created="2013-04-09T12:45:14.733+0000"
+				lastUpdated="2013-04-09T12:45:14.800+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/UnNIOt1uB0J" id="UnNIOt1uB0J" />
+			<categoryOptions>
+				<categoryOption name="Under 5 years" created="2013-04-09T12:44:19.905+0000"
+					lastUpdated="2013-04-09T12:44:19.905+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/D3E6Qfzjs6I"
+					id="D3E6Qfzjs6I" />
+			</categoryOptions>
+		</categoryOptionCombo>
+		<categoryOptionCombo name="(VVM Change)"
+			created="2011-12-24T11:24:25.319+0000" lastUpdated="2011-12-24T11:24:25.319+0000"
+			href="http://apps.dhis2.org/demo/api/categoryOptionCombos/TxaWpw1pN5G"
+			id="TxaWpw1pN5G">
+			<categoryCombo name="Stock discarded" created="2011-12-24T11:24:25.203+0000"
+				lastUpdated="2011-12-24T11:24:25.203+0000"
+				href="http://apps.dhis2.org/demo/api/categoryCombos/WA3HunbaGt0" id="WA3HunbaGt0" />
+			<categoryOptions>
+				<categoryOption name="VVM Change" created="2011-12-24T11:24:24.149+0000"
+					lastUpdated="2011-12-24T11:24:24.149+0000"
+					href="http://apps.dhis2.org/demo/api/categoryOptions/qKc2WhjMPKC"
+					id="qKc2WhjMPKC" />
+			</categoryOptions>
+		</categoryOptionCombo>
+	</categoryOptionCombos>
+</metaData>

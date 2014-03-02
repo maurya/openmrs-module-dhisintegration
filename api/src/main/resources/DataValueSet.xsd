@@ -1,0 +1,51 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" targetNamespace="http://dhis2.org/schema/dxf/2.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0">
+
+<!-- Rename the value element to avoid conflict with datatypes.xsd --> 
+	<xs:annotation>
+   		<xs:appinfo>
+            <jaxb:bindings node="//xs:element[@name='dataValue']">
+            	<jaxb:bindings node=".//xs:attribute[@name='value']">
+                	<jaxb:property name="valueAttribute"/>
+            	</jaxb:bindings>
+            </jaxb:bindings>
+   		</xs:appinfo>
+	</xs:annotation>
+
+	<xs:element name="dataValueSet">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dataValue" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:string" name="dataElement" use="optional" />
+								<xs:attribute type="xs:string" name="dataElementName" use="optional" />
+								<xs:attribute type="xs:string" name="period" use="optional" />
+								<xs:attribute type="xs:string" name="orgUnit" use="optional" />
+								<xs:attribute type="xs:string" name="orgUnitName" use="optional" />
+								<xs:attribute type="xs:string" name="categoryOptionCombo" use="optional" />
+								<xs:attribute type="xs:string" name="categoryOptionComboName" use="optional" />
+								<xs:attribute type="xs:string" name="value" use="optional" /> 
+								<xs:attribute type="xs:string" name="storedBy" use="optional" />
+								<xs:attribute type="xs:string" name="timestamp"	use="optional" />
+								<xs:attribute type="xs:string" name="comment" use="optional" />
+								<xs:attribute type="xs:boolean" name="followup"	use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+					<xs:attribute type="xs:string" name="dataSet" use="optional" />
+					<xs:attribute type="xs:string" name="dataSetName" use="optional" />
+					<xs:attribute type="xs:string" name="completeDate" use="optional" />
+					<xs:attribute type="xs:string" name="period" use="optional" />
+					<xs:attribute type="xs:string" name="orgUnit" use="optional" />
+					<xs:attribute type="xs:string" name="orgUnitName" use="optional" />
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
