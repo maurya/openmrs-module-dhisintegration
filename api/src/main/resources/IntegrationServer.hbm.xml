@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="org.openmrs.module.integration.IntegrationServer" table="dim_integrationserver">
+	<class name="org.openmrs.module.dhisintegration.IntegrationServer" table="dim_integrationserver">
 		<id name="id" type="int" unsaved-value="0"> 
 			<column name="id" />
 			<generator class="native" />

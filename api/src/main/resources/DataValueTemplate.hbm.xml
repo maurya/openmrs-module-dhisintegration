@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="org.openmrs.module.integration.DataValueTemplate" table="dim_datavaluetemplate">
+	<class name="org.openmrs.module.dhisintegration.DataValueTemplate" table="dim_datavaluetemplate">
 		<id name="id" type="int" unsaved-value="0">
 			<column name="id" />
 			<generator class="native" />
@@ -12,17 +12,17 @@
 		<property name="uuid" type="java.lang.String" column="uuid"
 			length="38" unique="true" />
 			
-				<many-to-one name="dataElement" class="org.openmrs.module.integration.DataElement"
+				<many-to-one name="dataElement" class="org.openmrs.module.dhisintegration.DataElement"
 			not-null="false" lazy="false">
 			<column name="dataelement_id" />
 		</many-to-one>
 
-				<many-to-one name="categoryOption" class="org.openmrs.module.integration.CategoryOption"
+				<many-to-one name="categoryOption" class="org.openmrs.module.dhisintegration.CategoryOption"
 			not-null="false" lazy="false">
 			<column name="categoryoption_id" />
 		</many-to-one>
 		
-				<many-to-one name="reportTemplate" class="org.openmrs.module.integration.ReportTemplate"
+				<many-to-one name="reportTemplate" class="org.openmrs.module.dhisintegration.ReportTemplate"
 			not-null="false">
 			<column name="reporttemplate_id" />
 		</many-to-one>
@@ -31,7 +31,7 @@
  			<property name="lastUpdated" type="java.util.Date" column="last_updated"
 			length="19" />
 			
-			<many-to-one name="integrationServer" class="org.openmrs.module.integration.IntegrationServer"
+			<many-to-one name="integrationServer" class="org.openmrs.module.dhisintegration.IntegrationServer"
 			not-null="true" >
 			<column name="server_Id" />
 		</many-to-one>		

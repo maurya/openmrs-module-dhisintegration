@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="org.openmrs.module.integration.OrgUnit" table="dim_orgunit">
+	<class name="org.openmrs.module.dhisintegration.OrgUnit" table="dim_orgunit">
 		<id name="id" type="int" unsaved-value="0">
 			<column name="id" />
 			<generator class="native" />
@@ -21,14 +21,14 @@
 			<property name="uid" type="java.lang.String" column="uid"
 			length="11" />
 			
-		<many-to-one name="integrationServer" class="org.openmrs.module.integration.IntegrationServer"
+		<many-to-one name="integrationServer" class="org.openmrs.module.dhisintegration.IntegrationServer"
 			not-null="true">
 			<column name="server_Id" />
 		</many-to-one>
 		
 		<set name="childOrgs" inverse="true" cascade="all" order-by="name" batch-size="100">
 			<key column="parent_id" />
-			<one-to-many class="org.openmrs.module.integration.OrgUnit" />
+			<one-to-many class="org.openmrs.module.dhisintegration.OrgUnit" />
 		</set>
 		
 		<set name="locations" table="dim_orgunit_location" >

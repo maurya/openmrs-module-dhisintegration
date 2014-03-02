@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="org.openmrs.module.integration.OptionSet" table="dim_optionset">
+	<class name="org.openmrs.module.dhisintegration.OptionSet" table="dim_optionset">
 		<id name="id" type="int" unsaved-value="0" column="id">
 			<generator class="native" />
 		</id>
@@ -28,7 +28,7 @@
 
 		<set name="categoryCombos" inverse="true" table="dim_catcombo_optionset" >
             <key column="optionset_id" not-null="true" />
-            <many-to-many entity-name="org.openmrs.module.integration.CategoryCombo">
+            <many-to-many entity-name="org.openmrs.module.dhisintegration.CategoryCombo">
                 <column name="catcombo_id" not-null="true" />
             </many-to-many>
         </set>
@@ -36,11 +36,11 @@
 			
 		<set name="options" table="dim_optionset_option" lazy="false" >
             <key column="optionset_id" not-null="true" />
-             <many-to-many entity-name="org.openmrs.module.integration.Option">
+             <many-to-many entity-name="org.openmrs.module.dhisintegration.Option">
                 <column name="option_id" not-null="true" />
             </many-to-many>
         </set>
-		<many-to-one name="integrationServer" class="org.openmrs.module.integration.IntegrationServer"
+		<many-to-one name="integrationServer" class="org.openmrs.module.dhisintegration.IntegrationServer"
 			not-null="true">
 			<column name="server_Id" />
 		</many-to-one>

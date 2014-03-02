@@ -184,7 +184,7 @@
 								<include>ImportSummary.xsd</include>
 							</schemaIncludes>
 							<episode>false</episode>
-							<generatePackage>org.openmrs.module.integration.api.jaxb</generatePackage>
+							<generatePackage>org.openmrs.module.dhisintegration.api.jaxb</generatePackage>
 							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
 						</configuration>
 					</execution>
