@@ -24,11 +24,11 @@
 			<form method="get" id="apiresultdisplay" >
 				<h2>
 					<c:if test="empty ${model.done}">
-						<spring:message code="integration.ApiPortlet.PleaseWait" />
+						<spring:message code="dhisintegration.ApiPortlet.PleaseWait" />
 					</c:if>
 					<c:if test="!empty ${model.done}">
 						<c:if test="${model.done!='DONE'}">
-							<spring:message code="integration.ApiPortlet.PleaseWait" />
+							<spring:message code="dhisintegration.ApiPortlet.PleaseWait" />
 						</c:if>
 						<c:if test="${model.done=='DONE'}">
 							<c:if test="${attributes.apiresult.error}">
@@ -44,14 +44,14 @@
 						<table>
 							<tbody>
 								<tr>
-									<th><spring:message code="integration.ApiPortlet.ChangeType" /></th>
-									<th><spring:message code="integration.ApiPortlet.Object" /></th>
-									<th><spring:message code="integration.ApiPortlet.UID" /></th>
-									<th><spring:message code="integration.ApiPortlet.Name" /></th>
-									<th><spring:message code="integration.ApiPortlet.Code" /></th>
-									<th><spring:message code="integration.ApiPortlet.OldName" /></th>
-									<th><spring:message code="integration.ApiPortlet.OldCode" /></th>
-									<th><spring:message code="integration.ApiPortlet.Revision" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.ChangeType" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.Object" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.UID" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.Name" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.Code" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.OldName" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.OldCode" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.Revision" /></th>
 								</tr>
 								<c:forEach items="${attributes.apiresult.changes}" var="change">
 										<tr>
@@ -75,7 +75,7 @@
 						<table>
 							<tbody>
 								<tr>
-									<th><spring:message code="integration.ApiPortlet.DeletedOrgUnits" /></th>
+									<th><spring:message code="dhisintegration.ApiPortlet.DeletedOrgUnits" /></th>
 								</tr>
 								<c:forEach items="${attributes.apiresult.removed}" var="orgunit">
 									<tr><td>orgunit.name</td></tr>
@@ -89,7 +89,7 @@
 					<div id="summary">
 						<table>
 							<thead>
-								<spring:message code="integration.ApiPortlet.SummaryStatus" />
+								<spring:message code="dhisintegration.ApiPortlet.SummaryStatus" />
 								&nbsp;:&nbsp
 								${attributes.apiresult.summary.status}
 								&nbsp;:&nbsp
@@ -97,11 +97,11 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td><spring:message code="integration.ApiPortlet.DataValueCount" /></td>
+									<td><spring:message code="dhisintegration.ApiPortlet.DataValueCount" /></td>
 									<td>${attributes.apiresult.summary.dataValueCount}</td>
 								</tr>
 								<tr>
-									<td><spring:message code="integration.ApiPortlet.Conflicts" /></td>
+									<td><spring:message code="dhisintegration.ApiPortlet.Conflicts" /></td>
 									<td>${attributes.apiresult.summary.conflicts}</td>
 								</tr>
 							</tbody>
@@ -113,14 +113,14 @@
 					<input 
 						id="cancel"
 						type="reset" 
-						value='<spring:message code="integration.button.cancel"/>' 
+						value='<spring:message code="dhisintegration.button.cancel"/>' 
 					/>
 				</c:if>
 				<c:if test="${model.done=='DONE'}">
 					<input 
 						id="ok" 
 						type="submit" 
-						value='<spring:message code="integration.button.OK"/>' 
+						value='<spring:message code="dhisintegration.button.OK"/>' 
 					/>
 				</c:if>
 			</form>

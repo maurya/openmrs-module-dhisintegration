@@ -30,7 +30,7 @@
 							id="${model.type}Name${model.portletId}" type="text" size="40" /></td>
 					</tr>
 					<tr>
-						<td><spring:message code="integration.general.mappedTo" /></td>
+						<td><spring:message code="dhisintegration.general.mappedTo" /></td>
 						<td>:</td>
 						<td><select name='cohorts${model.portletId}'
 							id='cohorts${model.portletId}'>
@@ -51,7 +51,7 @@
 						</select></td>
 						<td>
 							<button id="btnNewCohort">
-								<spring:message code="integration.button.createNewCohort" />
+								<spring:message code="dhisintegration.button.createNewCohort" />
 							</button>
 						</td>
 					</tr>
@@ -68,9 +68,9 @@
 						<td><a
 							href="javascript:save${model.type}(${model.portletId});"><input
 								id="${model.portletId}" type="button"
-								value='<spring:message code="integration.button.save"/>' /> </a><input
+								value='<spring:message code="dhisintegration.button.save"/>' /> </a><input
 							id="cancel${model.extraClass}${model.portletId}" type="reset"
-							value='<spring:message code="integration.button.cancel"/>'
+							value='<spring:message code="dhisintegration.button.cancel"/>'
 							class="cancel${model.extraClass}"></td>
 					</tr>
 				</tbody>

@@ -1,12 +1,12 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="View Server" otherwise="/login.htm" redirect="/module/integration/integrationServerAdmin.form" />
+<openmrs:require privilege="View Server" otherwise="/login.htm" redirect="/module/dhisintegration/integrationServerAdmin.form" />
 
 	<script type="text/javascript" charset="utf-8">
 		$j(document).ready(function() {
 		
-			$j(".integration-data-table").dataTable( {
+			$j(".dhisintegration-data-table").dataTable( {
 				"bPaginate": false,
 				"iDisplayLength": 25,
 				"bLengthChange": false,
@@ -20,9 +20,9 @@
 			$j('.delete').click(function() {
 				var serverName = $j(this).attr('id').substring(6); // strip 'delete'
 				alert(serverName);
-				if(confirm('<openmrs:message code="integration.confirm.serverDeletion" javaScriptEscape="true" />'))
+				if(confirm('<openmrs:message code="dhisintegration.confirm.serverDeletion" javaScriptEscape="true" />'))
 				{
-//					 $j.post("${pageContext.request.contextPath}/module/integration/deleteServer.form",
+//					 $j.post("${pageContext.request.contextPath}/module/dhisintegration/deleteServer.form",
 //					 		{serverName: name} );	
 //					 location.reload();
 				}
@@ -34,7 +34,7 @@
 				var url = window.location.href;
 				url = url.substr(0,url.lastIndexOf("/")+1);
 				url = url + "deleteServer.form?name=" + serverName;
-				if(confirm('<openmrs:message code="integration.confirm.serverUpdate" javaScriptEscape="true" />'))
+				if(confirm('<openmrs:message code="dhisintegration.confirm.serverUpdate" javaScriptEscape="true" />'))
 				{
 					window.location.href=url;
 				}
@@ -43,7 +43,7 @@
 			$j('.test').click(function() {
 				var serverName = $j(this).attr('id').substring(4); // strip 'test'
 				alert(serverName);
-//					 $j.post("${pageContext.request.contextPath}/module/integration/deleteServer.form",
+//					 $j.post("${pageContext.request.contextPath}/module/dhisintegration/deleteServer.form",
 //					 		{serverName: name} );	
 //					 location.reload();
 			} );
@@ -81,7 +81,7 @@
 			$j('#addOrEditPopup').dialog({
 				autoOpen: false,
 				modal: true,
-				title: '<openmrs:message code="integration.general.addOrUpdate" javaScriptEscape="true" />',
+				title: '<openmrs:message code="dhisintegration.general.addOrUpdate" javaScriptEscape="true" />',
 				width: '90%'
 			});
 					
@@ -104,17 +104,17 @@
 	</style>
 	
 	
-	<h2><openmrs:message code="integration.serverAdmin" javaScriptEscape="true"/></h2>
+	<h2><openmrs:message code="dhisintegration.serverAdmin" javaScriptEscape="true"/></h2>
 
 	<div>
-		<table id="table" class="integration-data-table display">
+		<table id="table" class="dhisintegration-data-table display">
 			<thead>
 				<tr>
-					<th><openmrs:message code="integration.general.name" javaScriptEscape="true" /></th>
-					<th><openmrs:message code="integration.general.description" javaScriptEscape="true" /></th>
-					<th><openmrs:message code="integration.general.url" javaScriptEscape="true" /></th>
-					<th><openmrs:message code="integration.general.lastUpdated" javaScriptEscape="true" /></th>
-					<th align="center" width="1%"><openmrs:message code="integration.general.actions" javaScriptEscape="true" /></th>
+					<th><openmrs:message code="dhisintegration.general.name" javaScriptEscape="true" /></th>
+					<th><openmrs:message code="dhisintegration.general.description" javaScriptEscape="true" /></th>
+					<th><openmrs:message code="dhisintegration.general.url" javaScriptEscape="true" /></th>
+					<th><openmrs:message code="dhisintegration.general.lastUpdated" javaScriptEscape="true" /></th>
+					<th align="center" width="1%"><openmrs:message code="dhisintegration.general.actions" javaScriptEscape="true" /></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -154,45 +154,45 @@
 							&nbsp;
 
 							<openmrs:hasPrivilege privilege="Manage Server">
-								<img id="locations${serverItem.serverName }" class="locations" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/mapicon.png" border="0" title='<openmrs:message code="integration.tooltips.locationMapping" javaScriptEscape="true" />'/>	
+								<img id="locations${serverItem.serverName }" class="locations" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/mapicon.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.locationMapping" javaScriptEscape="true" />'/>	
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Server" inverse="true">
-								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/mapicon.png" border="0" title='<openmrs:message code="integration.tooltips.locationMapping" javaScriptEscape="true" />'/>	
+								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/mapicon.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.locationMapping" javaScriptEscape="true" />'/>	
 							</openmrs:hasPrivilege>
 							&nbsp;
 
 							<openmrs:hasPrivilege privilege="Manage Report Templates">
-								<img id="templates${serverItem.serverName }" class="templates" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/attributes.png" border="0" title='<openmrs:message code="integration.tooltips.viewReportTemplates" javaScriptEscape="true" />'/>	
+								<img id="templates${serverItem.serverName }" class="templates" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/attributes.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.viewReportTemplates" javaScriptEscape="true" />'/>	
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Report Templates" inverse="true">
-								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/attributes.png" border="0" title='<openmrs:message code="integration.tooltips.viewReportTemplates" javaScriptEscape="true"/>'/>	
+								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/attributes.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.viewReportTemplates" javaScriptEscape="true"/>'/>	
 							</openmrs:hasPrivilege>
 							&nbsp;
 
 							<openmrs:hasPrivilege privilege="Manage Server">
-								<img id="edit${serverItem.serverName }" class="edit" src="<c:url value='/images/edit.gif'/>" border="0" title='<openmrs:message code="integration.tooltips.editServer" javaScriptEscape="true" />'/>
+								<img id="edit${serverItem.serverName }" class="edit" src="<c:url value='/images/edit.gif'/>" border="0" title='<openmrs:message code="dhisintegration.tooltips.editServer" javaScriptEscape="true" />'/>
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Server" inverse="true">
-								<img src="<c:url value='/images/edit.gif'/>" border="0" title='<openmrs:message code="integration.tooltips.editServer" javaScriptEscape="true" />'/>
+								<img src="<c:url value='/images/edit.gif'/>" border="0" title='<openmrs:message code="dhisintegration.tooltips.editServer" javaScriptEscape="true" />'/>
 							</openmrs:hasPrivilege>
 							&nbsp;
 							
 							<openmrs:hasPrivilege privilege="Manage Server">
-								<img id="delete${serverItem.serverName }" class="delete" src="<c:url value='/images/trash.gif'/>" border="0" title='<openmrs:message code="integration.tooltips.deleteServer" javaScriptEscape="true" />'/>
+								<img id="delete${serverItem.serverName }" class="delete" src="<c:url value='/images/trash.gif'/>" border="0" title='<openmrs:message code="dhisintegration.tooltips.deleteServer" javaScriptEscape="true" />'/>
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Server" inverse="true">
-								<img src="<c:url value='/images/trash.gif'/>" border="0" title='<openmrs:message code="integration.tooltips.deleteServer" javaScriptEscape="true" />'/>
+								<img src="<c:url value='/images/trash.gif'/>" border="0" title='<openmrs:message code="dhisintegration.tooltips.deleteServer" javaScriptEscape="true" />'/>
 							</openmrs:hasPrivilege>
 							&nbsp;
 		
-							<img id="test${serverItem.serverName }" class="test" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/lightning-icon.png" border="0" title='<openmrs:message code="integration.tooltips.testServerConnection" javaScriptEscape="true" />'/>	
+							<img id="test${serverItem.serverName }" class="test" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/lightning-icon.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.testServerConnection" javaScriptEscape="true" />'/>	
 									
 							&nbsp;
 							<openmrs:hasPrivilege privilege="Manage Server">
-								<img id="update${serverItem.serverName }" class="update" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/Updateicon.png" border="0" title='<openmrs:message code="integration.tooltips.updateServerData" javaScriptEscape="true"/>'/>	
+								<img id="update${serverItem.serverName }" class="update" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/Updateicon.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.updateServerData" javaScriptEscape="true"/>'/>	
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Server" inverse="true">
-								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/Updateicon.png" border="0" title='<openmrs:message code="integration.tooltips.updateServerData" javaScriptEscape="true" />'/>	
+								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/Updateicon.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.updateServerData" javaScriptEscape="true" />'/>	
 							</openmrs:hasPrivilege>
 									
 						</td>
@@ -203,7 +203,7 @@
 
 		<div id="button" align="right">
 			<button id="addNewServer" type="button" class="newdetails">
-	        	<openmrs:message code="integration.button.addNew" javaScriptEscape="true" />
+	        	<openmrs:message code="dhisintegration.button.addNew" javaScriptEscape="true" />
 	        </button>
 	    </div>
 	</div>
@@ -213,7 +213,7 @@
 			<table>
 				<tbody>	
 					<tr>
-						<td><openmrs:message code="integration.general.name" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.name" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td>
 							<input type="hidden" name="id" id="id"/>
@@ -221,7 +221,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td><openmrs:message code="integration.general.description" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.description" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td>
 							<input type="hidden" name="masterTemplate" id="masterTemplate"/>
@@ -229,27 +229,27 @@
 						</td>
 					</tr>
 					<tr>
-						<td><openmrs:message code="integration.general.url" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.url" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td><input type="text" name="url" id="url" size="40" /></td>
 					</tr>
 					<tr>
-						<td><openmrs:message code="integration.general.userName" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.userName" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td><input type="text" name="userName" id="uname" size="20" /></td>
 					</tr>
 					<tr>
-						<td><openmrs:message code="integration.general.password" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.password" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td><input type="text" name="password" id="password" size="20"/></td>
 					</tr>
 					<tr>
-						<td><openmrs:message code="integration.general.transport" javaScriptEscape="true" /></td>
+						<td><openmrs:message code="dhisintegration.general.transport" javaScriptEscape="true" /></td>
 						<td>:</td>
 						<td>
 							<select name="transportType" id="transportType">
-								<option value="Email"><openmrs:message code="integration.general.email" javaScriptEscape="true" /></option>
-							  	<option value="Url"><openmrs:message code="integration.general.url" javaScriptEscape="true" /></option>
+								<option value="Email"><openmrs:message code="dhisintegration.general.email" javaScriptEscape="true" /></option>
+							  	<option value="Url"><openmrs:message code="dhisintegration.general.url" javaScriptEscape="true" /></option>
 							</select>
 							<input type="text" name="emailorurl" id="emailurl" size="20"/>
 						</td>
@@ -263,8 +263,8 @@
 						<td></td>
 						<td></td>
 						<td>
-							<input type="submit" name="submit" value='<openmrs:message code="integration.button.save"/>' javaScriptEscape="true" /> 
-							<input type="reset" id="cancelNewServer" value='<openmrs:message code="integration.button.cancel" javaScriptEscape="true"/>' class="cancel">
+							<input type="submit" name="submit" value='<openmrs:message code="dhisintegration.button.save"/>' javaScriptEscape="true" /> 
+							<input type="reset" id="cancelNewServer" value='<openmrs:message code="dhisintegration.button.cancel" javaScriptEscape="true"/>' class="cancel">
 						</td>
 					</tr>
 				</tbody>

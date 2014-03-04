@@ -30,7 +30,7 @@ public class IntegrationServerAdminController {
 	
 	protected final Log log = LogFactory.getLog(getClass());
 	
-	@RequestMapping(value = "/module/integration/integrationServerAdmin", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/integrationServerAdmin", method = RequestMethod.GET)
 	@Authorized("View Server")
 	public void showServerList(ModelMap model) {	
 		List<IntegrationServer> servers = new ArrayList<IntegrationServer>();
@@ -40,7 +40,7 @@ public class IntegrationServerAdminController {
 		model.addAttribute("integrationServer", new IntegrationServer());
 	}
 	
-    @RequestMapping(value="/module/integration/deleteServer" ,method = RequestMethod.POST)
+    @RequestMapping(value="/module/dhisintegration/deleteServer" ,method = RequestMethod.POST)
     @Authorized("Manage Server")
     public String purgeServer(@RequestParam(required=false, value="serverName") String serverName) {
 
@@ -54,10 +54,10 @@ public class IntegrationServerAdminController {
         catch (Exception e) {
 	        log.error("unable to get the file", e);
         }		
-    	return "redirect:/module/integration/integrationServerAdmin.form";
+    	return "redirect:/module/dhisintegration/integrationServerAdmin.form";
     } 
     
-    @RequestMapping(value = "/module/integration/getServerDetails", method = RequestMethod.POST)
+    @RequestMapping(value = "/module/dhisintegration/getServerDetails", method = RequestMethod.POST)
     @Authorized("Manage Server")
 	public @ResponseBody
 	void getTemplate(@RequestParam(value="serverName",required=true)String serverName, ModelMap model) {
@@ -74,7 +74,7 @@ public class IntegrationServerAdminController {
 		
 	}
     
-//    @RequestMapping(value = "/module/integration/testServerConnection", method = RequestMethod.POST)
+//    @RequestMapping(value = "/module/dhisintegration/testServerConnection", method = RequestMethod.POST)
 //    @Authorized("Manage Server")
 //    public String testConnection(@RequestParam(value="serverName",required=true)  String serverName){
 //	
@@ -89,7 +89,7 @@ public class IntegrationServerAdminController {
 //		return "success";
 //    }
     
-    @RequestMapping(value = "/module/integration/saveIntegrationServer", method = RequestMethod.POST)
+    @RequestMapping(value = "/module/dhisintegration/saveIntegrationServer", method = RequestMethod.POST)
     @Authorized("Manage Server")
     public String saveServer(@ModelAttribute(value="integrationServer") IntegrationServer server,
     		ModelMap model, HttpServletRequest request){
@@ -104,7 +104,7 @@ public class IntegrationServerAdminController {
         catch (Exception e) {
 	        log.error("unable to save the server", e);
         }		
-		return "redirect:/module/integration/integrationServerAdmin.form";
+		return "redirect:/module/dhisintegration/integrationServerAdmin.form";
     }
     
     

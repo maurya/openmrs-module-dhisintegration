@@ -24,7 +24,7 @@ public class DhisApiServiceImpl implements DhisApiService {
 		DhisApiResult result = new DhisApiResult();
 		result.setStatus(DhisMetadataUtils.testConnection(is));
 		if ("".equals(result.getStatus())) {
-			result.setStatus("integration.TestConnection.OK");
+			result.setStatus("dhisintegration.TestConnection.OK");
 		} else {
 			result.setError(true);
 		}
@@ -106,7 +106,7 @@ public class DhisApiServiceImpl implements DhisApiService {
 			}
 		}
 		if (!result.getError()){
-			result.setStatus("integration.CreateServerMetadata.OK");
+			result.setStatus("dhisintegration.CreateServerMetadata.OK");
 		}
 		return new AsyncResult<DhisApiResult>(result);
 	}
@@ -125,7 +125,7 @@ public class DhisApiServiceImpl implements DhisApiService {
 			sm = null;
 		}
 		if (!result.getError()){
-			result.setStatus("integration.UpdateServerMetadata.OK");
+			result.setStatus("dhisintegration.UpdateServerMetadata.OK");
 		}
 		return new AsyncResult<DhisApiResult>(result);
 	}
@@ -144,7 +144,7 @@ public class DhisApiServiceImpl implements DhisApiService {
 			OrgUnitDisplay.Reset();
 		}
 		if (!result.getError()){
-			result.setStatus("integration.UpdateOrgUnits.OK");
+			result.setStatus("dhisintegration.UpdateOrgUnits.OK");
 		}
 		return new AsyncResult<DhisApiResult>(result);
 	}
@@ -160,7 +160,7 @@ public class DhisApiServiceImpl implements DhisApiService {
 			result.setError(true);
 		}
 		if (!result.getError()){
-			result.setStatus("integration.SendFile.OK");
+			result.setStatus("dhisintegration.SendFile.OK");
 		}
 		return new AsyncResult<DhisApiResult>(result);
 	}

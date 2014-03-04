@@ -1689,7 +1689,7 @@
 				}
 				switch(!0) {
 					case (!s.data && !s.ajax): throw "Neither data nor ajax settings supplied.";
-					// function option added here for easier model integration (also supporting async - see callback)
+					// function option added here for easier model dhisintegration (also supporting async - see callback)
 					case ($.isFunction(s.data)):
 						s.data.call(this, obj, $.proxy(function (d) {
 							d = this._parse_json(d, obj);

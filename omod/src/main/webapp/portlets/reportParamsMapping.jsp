@@ -43,8 +43,8 @@
 							<tr>
 								<td></td>
 								<td></td>
-								<td><a href="javascript:runReport(${model.portletId});"><input id="submit${model.portletId}" type="button" value='<spring:message code="integration.button.submit"/>' /> </a><input id="cancel${model.portletId}"
-								type="reset" value='<spring:message code="integration.button.cancel"/>' class="cancel">
+								<td><a href="javascript:runReport(${model.portletId});"><input id="submit${model.portletId}" type="button" value='<spring:message code="dhisintegration.button.submit"/>' /> </a><input id="cancel${model.portletId}"
+								type="reset" value='<spring:message code="dhisintegration.button.cancel"/>' class="cancel">
 								</td>
 							</tr>
 						</tbody>

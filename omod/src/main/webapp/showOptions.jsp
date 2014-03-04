@@ -2,7 +2,7 @@
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp"%>
 <openmrs:require privilege="Manage Options" otherwise="/login.htm"
-	redirect="/module/integration/showOptions.form" />
+	redirect="/module/dhisintegration/showOptions.form" />
 <script type="text/javascript" charset="utf-8">
 	$j(document).ready(function() {
 		
@@ -13,7 +13,7 @@
 			width: '90%'
 		});
 		
-		$j(".integration-data-table").dataTable( {
+		$j(".dhisintegration-data-table").dataTable( {
 			"bPaginate": false,
 			"iDisplayLength": 25,
 			"bLengthChange": false,
@@ -42,7 +42,7 @@
 		function saveOption(id) {
 	
 			var uuid=$("#cohorts"+id).val();
-			 $j.post("${pageContext.request.contextPath}/module/integration/saveOptionsSetMapping.form",{uuid: uuid,id: id},function() {
+			 $j.post("${pageContext.request.contextPath}/module/dhisintegration/saveOptionsSetMapping.form",{uuid: uuid,id: id},function() {
 	               //alert('got data');
 	          }).error(function() {
 		               // alert('Unable load Templates');
@@ -56,22 +56,22 @@
 </script>
 <div id="breadCrumbs">
 	<a href="integrationServerAdmin.form"><spring:message
-			code="integration.return.serverAdministration" /></a>|<a
+			code="dhisintegration.return.serverAdministration" /></a>|<a
 		href="manageReportTemplates.form?name=${server}"><spring:message
-			code="integration.return.reportTemplates" /></a>|
+			code="dhisintegration.return.reportTemplates" /></a>|
 </div>
 <h2>
-	<spring:message code="integration.header.optionSetsReport" />
+	<spring:message code="dhisintegration.header.optionSetsReport" />
 	: ${reportTemplate.name}
 </h2>
 
 <div>
-	<table class="integration-data-table display">
+	<table class="dhisintegration-data-table display">
 		<thead>
 			<tr>
-				<th><spring:message code="integration.dhis.optionSet" /></th>
-				<th><spring:message code="integration.dhis.options" /></th>
-				<th><spring:message code="integration.general.mappedTo" /></th>
+				<th><spring:message code="dhisintegration.dhis.optionSet" /></th>
+				<th><spring:message code="dhisintegration.dhis.options" /></th>
+				<th><spring:message code="dhisintegration.general.mappedTo" /></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -86,7 +86,7 @@
 								<a href="javascript:editOption('${option.id}');">
 									<img src="<c:url value='/images/edit.gif'/>" border="0"
 										title='<spring:message 
-										code="integration.tooltips.mapOption"/>' />
+										code="dhisintegration.tooltips.mapOption"/>' />
 								</a>
 							</p>
 						</c:forEach></td>
@@ -97,7 +97,7 @@
 							</p>
 							<div id="addOrEditPopup${option.id}" class="addOrEditPopup">
 								<openmrs:portlet url="mappingCohort.portlet"
-									id="mappingCohort${option.id}" moduleId="integration"
+									id="mappingCohort${option.id}" moduleId="dhisintegration"
 									parameters="mappedCohort=${option.cohortdefUuid}|type=Option|portletId=${option.id}" />
 							</div>
 						</c:forEach></td>

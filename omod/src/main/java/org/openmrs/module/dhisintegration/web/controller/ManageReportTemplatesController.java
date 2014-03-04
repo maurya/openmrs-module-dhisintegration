@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ManageReportTemplatesController {
-	@RequestMapping(value = "/module/integration/manageReportTemplates", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/manageReportTemplates", method = RequestMethod.GET)
 	@Authorized("Manage Report Templates")
 	public void showServerList(@RequestParam(required=false, value="name") String name,
 			ModelMap model) {
@@ -78,7 +78,7 @@ public class ManageReportTemplatesController {
 */
 	}
 	
-	@RequestMapping(value = "/module/integration/saveReportTemplateMapping", method = RequestMethod.POST)
+	@RequestMapping(value = "/module/dhisintegration/saveReportTemplateMapping", method = RequestMethod.POST)
 	@Authorized("Manage Report Templates")
     public void saveReportTemplate(@RequestParam(value = "mappedReport", required=true) String mappedReport,
     		@RequestParam(value = "id", required=true) String id){

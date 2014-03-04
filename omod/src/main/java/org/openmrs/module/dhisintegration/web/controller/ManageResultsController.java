@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ManageResultsController {
 	protected final Log log = LogFactory.getLog(getClass());
-	@RequestMapping(value = "/module/integration/manageResults", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/manageResults", method = RequestMethod.GET)
 	@Authorized("Manage Results")
 	public void showResultsList(ModelMap model,
 			@RequestParam(value="reportDefinition", required=false) ReportDefinition reportDefinition,
@@ -92,7 +92,7 @@ public class ManageResultsController {
 		model.addAttribute("renderingModes", renderingModes);
 	}
 	
-	@RequestMapping("/module/integration/viewResult")
+	@RequestMapping("/module/dhisintegration/viewResult")
 	@Authorized("Manage Results")
 	public void viewResult(ModelMap model,
 			@RequestParam(value="uid", required=true) String uid,

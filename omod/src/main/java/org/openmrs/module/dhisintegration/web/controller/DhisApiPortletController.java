@@ -115,7 +115,7 @@ public class DhisApiPortletController extends PortletController {
 					future.cancel(true);
 					DhisApiResult result = new DhisApiResult();
 					result.setError(true);
-					result.setStatus("integration.ApiPortlet.Cancelled");
+					result.setStatus("dhisintegration.ApiPortlet.Cancelled");
 					session.setAttribute("apiresult", new AsyncResult<DhisApiResult> (result));
 					done = "CANCEL";
 				}

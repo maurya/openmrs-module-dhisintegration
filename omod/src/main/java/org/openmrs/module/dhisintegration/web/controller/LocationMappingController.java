@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class LocationMappingController {
 	protected final Log log = LogFactory.getLog(getClass());
 	
-	@RequestMapping(value = "/module/integration/locationMapping", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/locationMapping", method = RequestMethod.GET)
 	@Authorized("Manage DHIS Locations")
 	public void viewResult(@RequestParam(required=false, value="name") String name,
 			ModelMap model){

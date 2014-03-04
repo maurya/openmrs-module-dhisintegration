@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="Manage Locations" otherwise="/login.htm" redirect="/module/integration/showDataElements.form" />
+<openmrs:require privilege="Manage Locations" otherwise="/login.htm" redirect="/module/dhisintegration/showDataElements.form" />
 <script type="text/javascript" charset="utf-8">
 	var win;	// child cohort def window
 	
@@ -14,7 +14,7 @@
 			width: '90%'
 		});
 		
-		$j(".integration-data-table").dataTable( {
+		$j(".dhisintegration-data-table").dataTable( {
 			"bPaginate": true,
 			"iDisplayLength": 5,
 			"bLengthChange": false,
@@ -57,21 +57,21 @@
 </style>
 
 <div id="breadCrumbs">
-	<a href="integrationServerAdmin.form"><spring:message code="integration.return.serverAdministration"/></a>|<a href="manageReportTemplates.form?name=${server}"><spring:message code="integration.return.reportTemplates"/></a>|
+	<a href="integrationServerAdmin.form"><spring:message code="dhisintegration.return.serverAdministration"/></a>|<a href="manageReportTemplates.form?name=${server}"><spring:message code="dhisintegration.return.reportTemplates"/></a>|
 </div>
 <h2>
-	<spring:message code="integration.dhis.reportTemplate"/>
+	<spring:message code="dhisintegration.dhis.reportTemplate"/>
 	&nbsp;:&nbsp;${reportTemplate.name}
 </h2>
 <div >
-	<table class="integration-data-table">
+	<table class="dhisintegration-data-table">
 		<thead>
 			<tr>
-				<th><spring:message code="integration.dhis.dataElement"/></th>
-				<th><spring:message code="integration.dhis.categoryCombo"/></th>
-				<th><spring:message code="integration.general.mappedTo"/></th>
+				<th><spring:message code="dhisintegration.dhis.dataElement"/></th>
+				<th><spring:message code="dhisintegration.dhis.categoryCombo"/></th>
+				<th><spring:message code="dhisintegration.general.mappedTo"/></th>
 				<th align="center" width="1%" colspan="2">
-					<spring:message code="integration.general.editMapping"/>
+					<spring:message code="dhisintegration.general.editMapping"/>
 				</th>
 			</tr>
 		</thead>
@@ -88,10 +88,10 @@
 							&nbsp;
 
 							<a href="javascript:editDataElement('${element.key.id}');">
-								<img src="<c:url value='/images/edit.gif'/>" border="0" title='<spring:message code="integration.tooltips.mapDataElement"/>'/>
+								<img src="<c:url value='/images/edit.gif'/>" border="0" title='<spring:message code="dhisintegration.tooltips.mapDataElement"/>'/>
 							</a>
 							<div id="addOrEditPopup${element.key.id}" class="addOrEditPopup">
-								<openmrs:portlet url="mappingCohort.portlet" id="mappingCohort${element.key.id}" moduleId="integration" parameters="type=DataElement|mappedCohort=${element.key.cohortDefinitionUuid}|portletId=${element.key.id}" />
+								<openmrs:portlet url="mappingCohort.portlet" id="mappingCohort${element.key.id}" moduleId="dhisintegration" parameters="type=DataElement|mappedCohort=${element.key.cohortDefinitionUuid}|portletId=${element.key.id}" />
 							</div>
 						</td>
 				</tr>

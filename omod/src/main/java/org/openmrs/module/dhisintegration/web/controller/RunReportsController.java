@@ -34,7 +34,7 @@ public class RunReportsController {
 	
 	protected final Log log = LogFactory.getLog(getClass());
 	
-	@RequestMapping(value = "/module/integration/runReports", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/runReports", method = RequestMethod.GET)
 	@Authorized("Run Reports")
 	public void showRunReports(ModelMap model) {
 		
@@ -53,7 +53,7 @@ public class RunReportsController {
 		model.addAttribute("uuidToReportDefinitionMap",uuidToReportDefinitionMap);
 	}
 	
-	@RequestMapping(value = "/module/integration/submitReportMappings", method = RequestMethod.POST)
+	@RequestMapping(value = "/module/dhisintegration/submitReportMappings", method = RequestMethod.POST)
 	@Authorized("Run Reports")
     public void saveReportTemplate(@RequestParam(value = "startDate", required=true) String startDate,
     		@RequestParam(value = "endDate", required=true) String endDate,

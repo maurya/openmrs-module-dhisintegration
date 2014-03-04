@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="Manage Report Templates" otherwise="/login.htm" redirect="/module/integration/manageReportTemplates.form" />
+<openmrs:require privilege="Manage Report Templates" otherwise="/login.htm" redirect="/module/dhisintegration/manageReportTemplates.form" />
 <script type="text/javascript" charset="utf-8">
 
 	$j(document).ready(function() {
@@ -50,7 +50,7 @@
 			$j('#editReportTemplateMapping').dialog({
 				autoOpen: false,
 				modal: true,
-				title: '<openmrs:message code="integration.general.reportMappedTo" javaScriptEscape="true" />',
+				title: '<openmrs:message code="dhisintegration.general.reportMappedTo" javaScriptEscape="true" />',
 				width: '90%'
 			} );
 					
@@ -104,11 +104,11 @@
 
 <div id="breadCrumbs">
 	<a href="integrationServerAdmin.form">
-		<openmrs:message code="integration.return.serverAdministration"/>
+		<openmrs:message code="dhisintegration.return.serverAdministration"/>
 	</a>|
 </div>
 <h2>
-	<openmrs:message code="integration.general.reportTemplatesFor"/> 
+	<openmrs:message code="dhisintegration.general.reportTemplatesFor"/> 
 	&nbsp;:&nbsp;${server.serverName}
 </h2>
 
@@ -119,12 +119,12 @@
 		<thead>
 			<tr>
 				<th>&nbsp;</th>
-				<th><openmrs:message code="integration.general.name"/></th>
-				<th><openmrs:message code="integration.general.code"/></th>
-				<th><openmrs:message code="integration.general.frequency"/></th>
-				<th><openmrs:message code="integration.general.baseCohort"/></th>
-				<th><openmrs:message code="integration.general.reportMappedTo"/></th>
-				<th align="center" width="1%"><openmrs:message code="integration.general.actions"/></th>
+				<th><openmrs:message code="dhisintegration.general.name"/></th>
+				<th><openmrs:message code="dhisintegration.general.code"/></th>
+				<th><openmrs:message code="dhisintegration.general.frequency"/></th>
+				<th><openmrs:message code="dhisintegration.general.baseCohort"/></th>
+				<th><openmrs:message code="dhisintegration.general.reportMappedTo"/></th>
+				<th align="center" width="1%"><openmrs:message code="dhisintegration.general.actions"/></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -150,15 +150,15 @@
 					</td>
 					<td align="center" nowrap>
 						<button type="button" class="edit" id="edit${reportTemplate.id}">
-                 			<openmrs:message code="integration.button.editReports"/>
+                 			<openmrs:message code="dhisintegration.button.editReports"/>
                    		</button>
 
 						<button type="button" class="mapDE" id="mapDE${reportTemplate.id}">
-                  			<openmrs:message code="integration.button.mapDataElement"/>
+                  			<openmrs:message code="dhisintegration.button.mapDataElement"/>
                    		</button>
 
                      	<button type="button" class="mapOS" id="mapOS${reportTemplate.id}">
-                  			<openmrs:message code="integration.button.mapOptionSets"/>
+                  			<openmrs:message code="dhisintegration.button.mapOptionSets"/>
                    		</button>
                     </td>
 				</tr>
@@ -173,9 +173,9 @@
 		<thead>
 			<tr>
 				<th style="display:none" />
-				<th><openmrs:message code="integration.dhis.dataElement"/></th>
-				<th><openmrs:message code="integration.dhis.categoryCombo"/></th>
-				<th><openmrs:message code="integration.dhis.optionSet"/></th>
+				<th><openmrs:message code="dhisintegration.dhis.dataElement"/></th>
+				<th><openmrs:message code="dhisintegration.dhis.categoryCombo"/></th>
+				<th><openmrs:message code="dhisintegration.dhis.optionSet"/></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -222,7 +222,7 @@
 		<table>
 			<tbody>	
 				<tr>
-					<td><openmrs:message code="integration.general.name"/></td>
+					<td><openmrs:message code="dhisintegration.general.name"/></td>
 					<td>:</td>
 					<td>
 						<input id="id" type="hidden"/>
@@ -230,12 +230,12 @@
 					</td>
 				</tr>
 				<tr>
-					<td><openmrs:message code="integration.general.reportMappedTo"/></td>
+					<td><openmrs:message code="dhisintegration.general.reportMappedTo"/></td>
 					<td>:</td>
 					<td> <input id="mappedReport" type="text" size="40" /></td>
 				</tr>
 				<tr>
-					<td><openmrs:message code="integration.general.baseCohort"/></td>
+					<td><openmrs:message code="dhisintegration.general.baseCohort"/></td>
 					<td>:</td>
 					<td><input id="baseCohort" type="text" size="40" /></td>
 				</tr>
@@ -244,8 +244,8 @@
 					<td></td>
 					<td></td>
 					<td>
-						<input type="submit" name="submit" value='<openmrs:message code="integration.button.save"/>' javaScriptEscape="true" /> 
-						<input type="reset" id="cancel" value='<openmrs:message code="integration.button.cancel" javaScriptEscape="true"/>' class="cancel">
+						<input type="submit" name="submit" value='<openmrs:message code="dhisintegration.button.save"/>' javaScriptEscape="true" /> 
+						<input type="reset" id="cancel" value='<openmrs:message code="dhisintegration.button.cancel" javaScriptEscape="true"/>' class="cancel">
 					</td>
 				</tr>
 			</tbody>

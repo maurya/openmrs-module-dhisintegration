@@ -1,10 +1,10 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="Manage Results" otherwise="/login.htm" redirect="/module/integration/manageResults.form" />
+<openmrs:require privilege="Manage Results" otherwise="/login.htm" redirect="/module/dhisintegration/manageResults.form" />
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
-	$(".integration-data-table").dataTable( {
+	$(".dhisintegration-data-table").dataTable( {
 			"bPaginate": false,
 			"iDisplayLength": 25,
 			"bLengthChange": false,
@@ -16,28 +16,28 @@
 		});
 	function showErrorDetails(uuid) {
 		showReportingDialog({
-			title: '<spring:message code="integration.errorDetails"/>',
+			title: '<spring:message code="dhisintegration.errorDetails"/>',
 			url: '${pageContext.request.contextPath}/module/reporting/reports/viewErrorDetails.form?uuid='+uuid
 		});
 	}
 	function showResult(uid,location,startdate) {
-			 $.post("${pageContext.request.contextPath}/module/integration/viewResult.form",{uid: uid,location: location,startDate: startdate});
+			 $.post("${pageContext.request.contextPath}/module/dhisintegration/viewResult.form",{uid: uid,location: location,startDate: startdate});
 	}
 	
 </script>
 <div id="breadCrumbs">
-<a href="integrationServerAdmin.form"><spring:message code="integration.return.serverAdministration"/></a>|
+<a href="integrationServerAdmin.form"><spring:message code="dhisintegration.return.serverAdministration"/></a>|
 </div>
 <div>
-	<table id="integration-data-table" class="integration-data-table" width="99%" style="padding:3px;">
+	<table id="dhisintegration-data-table" class="dhisintegration-data-table" width="99%" style="padding:3px;">
 			<thead>
 				<tr>
 					<th style="display:none"></th>
-					<th><spring:message code="integration.dhis.reportTemplate"/></th>
-					<th><spring:message code="integration.dhis.parameters"/></th>
-					<th><spring:message code="integration.dhis.requestedOn"/></th>
-					<th><spring:message code="integration.dhis.status"/></th>
-					<th style="text-align:center;"><spring:message code="integration.general.actions"/></th>
+					<th><spring:message code="dhisintegration.dhis.reportTemplate"/></th>
+					<th><spring:message code="dhisintegration.dhis.parameters"/></th>
+					<th><spring:message code="dhisintegration.dhis.requestedOn"/></th>
+					<th><spring:message code="dhisintegration.dhis.status"/></th>
+					<th style="text-align:center;"><spring:message code="dhisintegration.general.actions"/></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -78,13 +78,13 @@
 								</c:when>
 								<c:otherwise>
 									<a href="javascript:showResult('kk','location','startdate');">
-										<button><spring:message code="integration.button.viewReport"/></button>
+										<button><spring:message code="dhisintegration.button.viewReport"/></button>
 									</a>
 										<a href="viewReport.form?uuid=${r.uuid}">
-										<button><spring:message code="integration.button.sendReport"/></button>
+										<button><spring:message code="dhisintegration.button.sendReport"/></button>
 									</a>
 										<a href="viewReport.form?uuid=${r.uuid}">
-										<button><spring:message code="integration.button.deleteReport"/></button>
+										<button><spring:message code="dhisintegration.button.deleteReport"/></button>
 									</a>
 								</c:otherwise>
 							</c:choose>

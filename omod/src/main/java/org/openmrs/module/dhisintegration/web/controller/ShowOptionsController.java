@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ShowOptionsController {
-	@RequestMapping(value = "/module/integration/showOptions", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/dhisintegration/showOptions", method = RequestMethod.GET)
 	@Authorized("Manage Options")
 	public void showDataElementsAndOptions(@RequestParam(required=false, value="reportTemplateId") int reportTemplateId,
 			@RequestParam(required=true, value="server") String server,
@@ -44,7 +44,7 @@ public class ShowOptionsController {
 		model.addAttribute("uuidToCohortDefinitionMap",uuidToCohortDefinitionMap);
 	}
 	
-	@RequestMapping(value = "/module/integration/saveOptionsSetMapping", method = RequestMethod.POST)
+	@RequestMapping(value = "/module/dhisintegration/saveOptionsSetMapping", method = RequestMethod.POST)
 	@Authorized("Manage Options")
     public void saveReportTemplate(@RequestParam(value = "uuid", required=true) String uuid,
     		@RequestParam(value = "id", required=true) String id){

@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="Run Reports" otherwise="/login.htm" redirect="/module/integration/runReports.form" />
+<openmrs:require privilege="Run Reports" otherwise="/login.htm" redirect="/module/dhisintegration/runReports.form" />
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
 		
@@ -36,7 +36,7 @@
 		var startDate=$("#StartDate"+id).val();
 		var endDate=$("#EndDate"+id).val();
 		var Location=$("#dhisLocations"+id).val();
-		 $.post("${pageContext.request.contextPath}/module/integration/submitReportMappings.form",{startDate: startDate,endDate: endDate,Location: Location},function() {
+		 $.post("${pageContext.request.contextPath}/module/dhisintegration/submitReportMappings.form",{startDate: startDate,endDate: endDate,Location: Location},function() {
                //alert('got data');
            }).error(function() {
 	               // alert('Unable load Templates');
@@ -49,17 +49,17 @@
 	}
 
 </script>
-<h2><spring:message code="integration.header.reportsToRun"/></h2>
+<h2><spring:message code="dhisintegration.header.reportsToRun"/></h2>
 
 <div >
 		   <table class="report-table display">
 			<thead>
 				<tr>
-					<th><spring:message code="integration.general.name"/></th>
-					<th><spring:message code="integration.general.code"/></th>
-					<th><spring:message code="integration.general.frequency"/></th>
-					<th><spring:message code="integration.general.reportMappedTo"/></th>
-					<th align="center" width="1%"><spring:message code="integration.general.actions"/></th>
+					<th><spring:message code="dhisintegration.general.name"/></th>
+					<th><spring:message code="dhisintegration.general.code"/></th>
+					<th><spring:message code="dhisintegration.general.frequency"/></th>
+					<th><spring:message code="dhisintegration.general.reportMappedTo"/></th>
+					<th align="center" width="1%"><spring:message code="dhisintegration.general.actions"/></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -79,9 +79,9 @@
 						</td>
 						<td align="center" nowrap>
 							&nbsp;
-							<a href="javascript:openReportMapping('${report.id}');"><img src="<c:url value='/images/play.gif'/>" border="0" title='<spring:message code="integration.runReports"/>'/></a>
+							<a href="javascript:openReportMapping('${report.id}');"><img src="<c:url value='/images/play.gif'/>" border="0" title='<spring:message code="dhisintegration.runReports"/>'/></a>
 							<div id="reportParameters${report.id}" class="reportParameters">
-						<openmrs:portlet url="reportParamsMapping.portlet" id="reportParamsMapping${report.id}" moduleId="integration" parameters="portletId=${report.id}" />
+						<openmrs:portlet url="reportParamsMapping.portlet" id="reportParamsMapping${report.id}" moduleId="dhisintegration" parameters="portletId=${report.id}" />
 						</div>
 						</td>
 					</tr>

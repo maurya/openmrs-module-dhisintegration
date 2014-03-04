@@ -1,12 +1,12 @@
 <%@ include file="/WEB-INF/template/include.jsp"%>
 <%@ include file="/WEB-INF/template/header.jsp"%>
 <%@ include file="localInclude.jsp" %>
-<openmrs:require privilege="Manage Locations" otherwise="/login.htm" redirect="/module/integration/locationMapping.form" />
+<openmrs:require privilege="Manage Locations" otherwise="/login.htm" redirect="/module/dhisintegration/locationMapping.form" />
  <script>
             $(document).ready(function(){
               
                     
-           $(".integration-data-table").dataTable( {
+           $(".dhisintegration-data-table").dataTable( {
 			"bPaginate": false,
 			"iDisplayLength": 25,
 			"bLengthChange": false,
@@ -63,18 +63,18 @@
 			function updateOrgs(name) {
 				<div id="${name}" class="addOrEditPopup">
 					<openmrs:portlet url="dhisApi.portlet" id="orgUpdate_${name}" 
-							moduleId="integration" parameters="operation=ORGS_API|server=${name}" />
+							moduleId="dhisintegration" parameters="operation=ORGS_API|server=${name}" />
 				</div>
 			}
 				
 
 			</script>
     <div id="breadCrumbs">
-<a href="integrationServerAdmin.form"><spring:message code="integration.return.serverAdministration"/></a>|
+<a href="integrationServerAdmin.form"><spring:message code="dhisintegration.return.serverAdministration"/></a>|
 </div>
-<h2><spring:message code="integration.general.locationsFor"/> <spring:message code="integration.serverAdmin"/> : ${server.serverName}</h2>
+<h2><spring:message code="dhisintegration.general.locationsFor"/> <spring:message code="dhisintegration.serverAdmin"/> : ${server.serverName}</h2>
 	<a align="right" href="javascript:updateOrgs'${serverItem.serverName}');">
-		<spring:message code="integration.general.updateDhisLocations"/>
+		<spring:message code="dhisintegration.general.updateDhisLocations"/>
 	</a>
 
 	    <div id=mainDiv>
@@ -86,11 +86,11 @@
                     </button>
 					</a>
 	        <div id="selectionDiv">
-	        	<table id="table" class="integration-data-table display">
+	        	<table id="table" class="dhisintegration-data-table display">
 			<thead>
 				<tr>
-					<th><spring:message code="integration.general.dhisOrgUnits"/></th>
-					<th><spring:message code="integration.general.openMRSLocations"/></th>
+					<th><spring:message code="dhisintegration.general.dhisOrgUnits"/></th>
+					<th><spring:message code="dhisintegration.general.openMRSLocations"/></th>
 				</tr>
 			</thead>
 			<tbody>
