@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    
+<!--     Adding demo dhis server -->
+    <changeSet author="maurya" id="demo integrationserver">
+    	<preConditions onFail="MARK_RAN">
+				 <sqlCheck expectedResult="0"> SELECT count(*) FROM dim_integrationserver WHERE name="dhis"</sqlCheck>
+		</preConditions>
+		<insert tableName="dim_integrationserver">
+			<column name="uuid" value="854ad257-54ac-426e-8e04-8f1ce7ad36a7"/>
+			<column name="name" value="dhis"/>
+			<column name="description" value="dhis2 demo server"/>
+			<column name="username" value="admin"/>
+			<column name="password" value="district"/>
+			<column name="url" value="http://apps.dhis2.org/demo"/>
+			<column name="mastertemplate"/>
+			<column name="emailorurl" value="API"/>
+			<column name="transport_type"/>
+			<column name="last_updated"/>		
+		</insert>
+	</changeSet>     
+         
+</databaseChangeLog>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+         
+	<changeSet id="dim-IntegrationServer" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_integrationserver"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the Integration server Table
+		</comment>
+
+		<createTable tableName="dim_integrationserver">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="description" type="VARCHAR(230)"/>
+			<column name="username" type="VARCHAR(255)"/>
+			<column name="password" type="VARCHAR(255)"/>
+			<column name="url" type="VARCHAR(255)"/>
+			<column name="mastertemplate" type="VARCHAR(255)"/>
+			<column name="emailorurl" type="VARCHAR(255)"/>
+			<column name="transport_type" type="VARCHAR(45)"/>
+			<column name="last_updated" type="DATETIME"/>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-report template" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_reporttemplate"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the report template Table
+		</comment>
+
+		<createTable tableName="dim_reporttemplate">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="frequency" type="VARCHAR(230)"/>
+			<column name="report_definition_uuid" type="CHAR(38)"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="last_updated" type="DATETIME"/>
+		</createTable>
+	</changeSet> 
+	     
+	<changeSet id="dim-Org unit" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_orgunit"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the org unit Table
+		</comment>
+
+		<createTable tableName="dim_orgunit">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="server_id" type="INT"/>
+			<column name="parent_id" type="INT"/>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-data element" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_dataelement"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the data element Table
+		</comment>
+
+		<createTable tableName="dim_dataelement">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="type" type="VARCHAR(50)"/>
+			<column name="cohortdef_uuid" type="CHAR(38)"/>
+			<column name="categorycombo_id" type="INT"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="reporttemplate_id" type="INT"/>
+			<column name="last_updated" type="DATETIME"/>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-category combo" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_categorycombo"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the category combo Table
+		</comment>
+
+		<createTable tableName="dim_categorycombo">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-category option" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_categoryoption"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the category option Table
+		</comment>
+
+		<createTable tableName="dim_categoryoption">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-optionset" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_optionset"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the optionset Table
+		</comment>
+
+		<createTable tableName="dim_optionset">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="dimension_uuid" type="CHAR(38)"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-option" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_option"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the option Table
+		</comment>
+
+		<createTable tableName="dim_option">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="name" type="VARCHAR(230)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="code" type="VARCHAR(50)"/>
+			<column name="uid" type="CHAR(11)"/>
+			<column name="cohortdef_uuid" type="CHAR(38)"/>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+	
+
+	<changeSet id="dim-data value template" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_datavaluetemplate"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the data value template Table
+		</comment>
+
+		<createTable tableName="dim_datavaluetemplate">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="uuid" type="CHAR(38)">
+			<constraints nullable="false"/>
+			</column>
+			<column name="dataelement_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="categoryoption_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="reporttemplate_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="server_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="last_updated" type="DATETIME"/>
+		</createTable>
+	</changeSet> 
+
+	<changeSet author="maurya" id="foreign_key_constraints-dim_orgunit">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="orgunit_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_orgunit" constraintName="orgunit_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+		<addForeignKeyConstraint baseColumnNames="parent_id" baseTableName="dim_orgunit" constraintName="orgunit_parentid" referencedColumnNames="id" referencedTableName="dim_orgunit"/>		
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_dataelement">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="dataelement_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_dataelement" constraintName="dataelement_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+		<addForeignKeyConstraint baseColumnNames="categorycombo_id" baseTableName="dim_dataelement" constraintName="dataelement_categorycomboid" referencedColumnNames="id" referencedTableName="dim_categorycombo"/>	
+		<addForeignKeyConstraint baseColumnNames="reporttemplate_id" baseTableName="dim_dataelement" constraintName="dataelement_reporttemplateid" referencedColumnNames="id" referencedTableName="dim_reporttemplate"/>			
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_categorycombo">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="categorycombo_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_categorycombo" constraintName="categorycombo_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_categoryoption">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="categoryoption_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_categoryoption" constraintName="categoryoption_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_optionset">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="optionset_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_optionset" constraintName="optionset_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_option">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="option_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_option" constraintName="option_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_reporttemplate">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="reporttemplate_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_reporttemplate" constraintName="reporttemplate_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_datavaluetemplate">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="datavaluetemplate_serverid" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="server_id" baseTableName="dim_datavaluetemplate" constraintName="datavaluetemplate_serverid" referencedColumnNames="id" referencedTableName="dim_integrationserver"/>
+		<addForeignKeyConstraint baseColumnNames="dataelement_id" baseTableName="dim_datavaluetemplate" constraintName="datavaluetemplate_dataelement" referencedColumnNames="id" referencedTableName="dim_dataelement"/>	
+		<addForeignKeyConstraint baseColumnNames="categoryoption_id" baseTableName="dim_datavaluetemplate" constraintName="datavaluetemplate_categoryoption" referencedColumnNames="id" referencedTableName="dim_categoryoption"/>
+		<addForeignKeyConstraint baseColumnNames="reporttemplate_id" baseTableName="dim_datavaluetemplate" constraintName="datavaluetemplate_reporttemplate" referencedColumnNames="id" referencedTableName="dim_reporttemplate"/>	
+	</changeSet>
+	
+</databaseChangeLog>

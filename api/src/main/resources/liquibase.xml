@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<!-- Updates OpenMRS as required for Integration Adds module specific main tables 
+		or updates them if a new version is installed -->
+	<include file="liquibase-maintables-schema.xml" relativeToChangelogFile="false" />
+
+		<!-- Updates OpenMRS as required for Integration Adds module specific link tables 
+		or updates them if a new version is installed -->
+	<include file="liquibase-linktables-schema.xml" relativeToChangelogFile="false" />
+
+	<!-- Installs minimum metadata that is required to operate the module-->
+	<include file="liquibase-minimum-metadata.xml"
+		relativeToChangelogFile="false" /> 
+
+</databaseChangeLog>

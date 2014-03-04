@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+         
+	
+	<changeSet id="dim-categorycombo categoryoption" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_catcombo_combooption"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the category combo category option link Table
+		</comment>
+
+		<createTable tableName="dim_catcombo_combooption">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="catcombo_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="catoption_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+	<changeSet id="dim-categorycombo optionset" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_catcombo_optionset"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the category combo optionset link Table
+		</comment>
+
+		<createTable tableName="dim_catcombo_optionset">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="catcombo_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="optionset_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+		<changeSet id="dim-categoryoption option" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_categoryoption_option"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the category option option link Table
+		</comment>
+
+		<createTable tableName="dim_categoryoption_option">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="categoryoption_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="option_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet> 
+	
+		<changeSet id="dim-optionset option" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_optionset_option"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the optionset option link Table
+		</comment>
+
+		<createTable tableName="dim_optionset_option">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="optionset_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="option_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet>
+	
+	<changeSet id="dim-orgunit location" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_orgunit_location"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the orgunit location link Table
+		</comment>
+
+		<createTable tableName="dim_orgunit_location">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="orgunit_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="location_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet>
+	
+	<changeSet id="dim-reporttemplate dataelement" author="maurya">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="dim_reporttemplate_dataelement"/>
+			</not>
+		</preConditions>
+		<comment>
+			Creating the reporttemplate dataelement link Table
+		</comment>
+
+		<createTable tableName="dim_reporttemplate_dataelement">
+			<column name="id" type="INT" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="reporttemplate_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+			<column name="dataelement_id" type="INT">
+			<constraints nullable="false"/>
+			</column>
+		</createTable>
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_catcombo_combooption">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="catcombo_combooption_categorycombo" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="catcombo_id" baseTableName="dim_catcombo_combooption" constraintName="catcombo_combooption_categorycombo" referencedColumnNames="id" referencedTableName="dim_categorycombo"/>
+		<addForeignKeyConstraint baseColumnNames="catoption_id" baseTableName="dim_catcombo_combooption" constraintName="catcombo_combooption_categoryoption" referencedColumnNames="id" referencedTableName="dim_categoryoption"/>	
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_catcombo_optionset">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="catcombo_optionset_categorycombo" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="catcombo_id" baseTableName="dim_catcombo_optionset" constraintName="catcombo_optionset_categorycombo" referencedColumnNames="id" referencedTableName="dim_categorycombo"/>
+		<addForeignKeyConstraint baseColumnNames="optionset_id" baseTableName="dim_catcombo_optionset" constraintName="catcombo_combooption_optionset" referencedColumnNames="id" referencedTableName="dim_optionset"/>	
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_categoryoption_option">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="categoryoption_option_categoryoption" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="categoryoption_id" baseTableName="dim_categoryoption_option" constraintName="categoryoption_option_categoryoption" referencedColumnNames="id" referencedTableName="dim_categoryoption"/>
+		<addForeignKeyConstraint baseColumnNames="option_id" baseTableName="dim_categoryoption_option" constraintName="categoryoption_option_option" referencedColumnNames="id" referencedTableName="dim_option"/>	
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_optionset_option">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="optionset_option_optionset" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="optionset_id" baseTableName="dim_optionset_option" constraintName="optionset_option_optionset" referencedColumnNames="id" referencedTableName="dim_optionset"/>
+		<addForeignKeyConstraint baseColumnNames="option_id" baseTableName="dim_optionset_option" constraintName="optionset_option_option" referencedColumnNames="id" referencedTableName="dim_option"/>	
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_orgunit_location">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="orgunit_location_orgunit" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="orgunit_id" baseTableName="dim_orgunit_location" constraintName="orgunit_location_orgunit" referencedColumnNames="id" referencedTableName="dim_orgunit"/>
+		<addForeignKeyConstraint baseColumnNames="location_id" baseTableName="dim_orgunit_location" constraintName="orgunit_location_location" referencedColumnNames="location_id" referencedTableName="location"/>	
+	</changeSet>
+	
+	<changeSet author="maurya" id="foreign_key_constraints-dim_reporttemplate_dataelement">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<foreignKeyConstraintExists foreignKeyName="reporttemplate_dataelement_reporttemplate" />
+			</not>
+		</preConditions>
+		<addForeignKeyConstraint baseColumnNames="reporttemplate_id" baseTableName="dim_reporttemplate_dataelement" constraintName="reporttemplate_dataelement_reporttemplate" referencedColumnNames="id" referencedTableName="dim_reporttemplate"/>
+		<addForeignKeyConstraint baseColumnNames="dataelement_id" baseTableName="dim_reporttemplate_dataelement" constraintName="reporttemplate_dataelement_dataelement" referencedColumnNames="id" referencedTableName="dim_dataelement"/>	
+	</changeSet>
+	
+</databaseChangeLog>
