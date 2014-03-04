@@ -38,11 +38,55 @@
 		<point>org.openmrs.admin.list</point>
 		<class>${project.parent.groupId}.${project.parent.artifactId}.extension.html.AdminList</class>
 	</extension>
-	
+	<privilege>
+		<name>Run Reports</name>
+		<description>Base privilege for running the reports</description>
+	</privilege>
+	<privilege>
+		<name>Manage Results</name>
+		<description>View/Send/Delete Results</description>
+	</privilege>
+	<privilege>
+		<name>View Server</name>
+		<description>Viewing Servers</description>
+	</privilege>
+	<privilege>
+		<name>Manage Server</name>
+		<description>Add/Edit/Remove Server</description>
+	</privilege>
+	<privilege>
+		<name>Manage DHIS Locations</name>
+		<description>Add/Edit/Remove DHIS Location Mappings</description>
+	</privilege>
+	<privilege>
+		<name>Manage Data Elements</name>
+		<description>Map/Edit Data Element Mappings</description>
+	</privilege>
+	<privilege>
+		<name>Manage Options</name>
+		<description>Map/Edit Option Mappings</description>
+	</privilege>
+	<privilege>
+		<name>Manage Report Templates</name>
+		<description>Manage Editing Report Templates</description>
+	</privilege>
+	<privilege>
+		<name>Map Cohorts</name>
+		<description>Map DHIS elements to cohorts</description>
+	</privilege>
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
 				
 		DhisIntegration.hbm.xml
+		IntegrationServer.hbm.xml
+		OrgUnit.hbm.xml 
+		CategoryCombo.hbm.xml
+		CategoryOption.hbm.xml
+		OptionSet.hbm.xml
+		Option.hbm.xml
+		ReportTemplate.hbm.xml
+		DataElement.hbm.xml
+		DataValueTemplate.hbm.xml
 				
 	</mappingFiles>
 
