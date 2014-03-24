@@ -162,7 +162,7 @@
 							&nbsp;
 
 							<openmrs:hasPrivilege privilege="Manage Report Templates">
-								<img id="templates${serverItem.serverName }" class="templates" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/integration/images/attributes.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.viewReportTemplates" javaScriptEscape="true" />'/>	
+								<img id="templates${serverItem.serverName }" class="templates" width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/attributes.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.viewReportTemplates" javaScriptEscape="true" />'/>	
 							</openmrs:hasPrivilege>
 							<openmrs:hasPrivilege privilege="Manage Report Templates" inverse="true">
 								<img width="20" height="20" src="${pageContext.request.contextPath}/moduleResources/dhisintegration/images/attributes.png" border="0" title='<openmrs:message code="dhisintegration.tooltips.viewReportTemplates" javaScriptEscape="true"/>'/>	
