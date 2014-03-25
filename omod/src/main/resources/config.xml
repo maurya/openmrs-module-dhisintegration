@@ -77,7 +77,6 @@
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
 				
-		DhisIntegration.hbm.xml
 		IntegrationServer.hbm.xml
 		OrgUnit.hbm.xml 
 		CategoryCombo.hbm.xml
