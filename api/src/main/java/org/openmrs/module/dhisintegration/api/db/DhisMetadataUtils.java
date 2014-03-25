@@ -54,7 +54,7 @@ import org.openmrs.util.OpenmrsUtil;
 public class DhisMetadataUtils {
 
 	private static Log log = LogFactory.getLog(DhisMetadataUtils.class);
-	private static String MODULE_NAME = "Integration";
+	private static String MODULE_NAME = "Dhis Integration";
 	private static String NAMESPACE = "http://www.dhis.org/schema/dxf/2.0";
 
 	private static String catsCall = "/api/categoryOptionCombos?viewClass=detailed&paging=false";
@@ -68,7 +68,7 @@ public class DhisMetadataUtils {
 
 	/**
 	 * This method gets the 3 metadata files via the DHIS API into
-	 * <application dir>/Integration/<server name>/New. The
+	 * <application dir>/Dhis Integration/<server name>/New. The
 	 * files are called master.xml, cats.xml, opts.xml.
 	 * 
 	 * @param server the server object which is to be accessed.

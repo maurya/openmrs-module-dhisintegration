@@ -16,7 +16,7 @@ import org.openmrs.module.reporting.cohort.definition.service.CohortDefinitionSe
  */
 public class UndefinedCohortDefinition extends BaseCohortDefinition {
 
-	private static String MODULE_NAME = "Integration";
+	private static String MODULE_NAME = "Dhis Integration";
 	private static String INSTANCE_NAME = "instance";
 	private static String INSTANCE_DESC = "For use by " + MODULE_NAME;
 	

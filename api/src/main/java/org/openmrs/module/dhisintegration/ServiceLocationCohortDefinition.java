@@ -24,7 +24,7 @@ import org.openmrs.Location;
  */
 public class ServiceLocationCohortDefinition extends EncounterCohortDefinition {
 
-	private static String MODULE_NAME = "Integration";
+	private static String MODULE_NAME = "DhisIntegration";
 	private static String INSTANCE_NAME = "Patients Served at Location during Time Period";
 	private static String INSTANCE_DESC = "For use by " + MODULE_NAME;
 	private static String LOC_PARAM_NAME = "locationList";

@@ -27,7 +27,7 @@ import org.openmrs.util.OpenmrsUtil;
 public class OrgUnitDisplay {
 	private static Map<String,OrgUnitDisplay> index = new HashMap<String,OrgUnitDisplay>();
 	private static Map<String,Set<String>> parentChild = new HashMap<String,Set<String>>();
-	private static String MODULE_NAME = "Integration";
+	private static String MODULE_NAME = "Dhis Integration";
 
 	private String uid;
 	private String name;

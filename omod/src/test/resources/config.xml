@@ -27,7 +27,7 @@
 	<!-- / Required Modules -->
 	
 	<!-- Module Activator -->
-	<activator>${project.parent.groupId}.${project.parent.artifactId}.IntegrationActivator</activator>
+	<activator>${project.parent.groupId}.${project.parent.artifactId}.DhisIntegrationActivator</activator>
 	
 	<!-- Adds link to admin page -->
 	<extension>
@@ -37,19 +37,11 @@
 
 	<privilege>
 		<name>Manage Integration Servers</name>
-		<description>Allows the user to manage Integration module Servers</description>
+		<description>Allows the user to manage Dhis Integration module Servers</description>
 	</privilege>
 	
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
-				
-<!-- 		Integration_ns.hbm.xml -->
-		<!--
-		
-		
-		
-		
-		-->
 		IntegrationServer.hbm.xml
 		CategoryCombo.hbm.xml
 		CategoryOption.hbm.xml
